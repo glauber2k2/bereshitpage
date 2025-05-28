@@ -12,7 +12,18 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-
+      keyframes: {
+        glitchCycle: {
+          "0%, 96%": { opacity: "1", filter: "brightness(1)" },
+          "96.1%, 96.3%": { opacity: "0.2", filter: "brightness(2)" },
+          "96.4%, 96.6%": { opacity: "1", filter: "brightness(1)" },
+          "96.7%, 96.9%": { opacity: "0.2", filter: "brightness(1.5)" },
+          "97%, 100%": { opacity: "1", filter: "brightness(1)" },
+        },
+      },
+      animation: {
+        glitchEvery30s: "glitchCycle 30s steps(1) infinite",
+      },
       colors: {
         turquoise: {
           50: "#eefdfd",
