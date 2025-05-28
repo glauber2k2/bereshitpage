@@ -11,11 +11,11 @@ export default function Donate() {
         alt="Donate"
       />
       <div className="px-8 gap-6 flex flex-col">
-        <h1 className=" text-center w-full text-5xl font-bold text-turquoise-400">
+        <h1 className=" text-center w-full text-4xl font-bold text-turquoise-400">
           Ajude quem precisa!
         </h1>
 
-        <h2 className="text-xl font-semibold">
+        <h2 className=" font-semibold">
           Participe da nossa campanha de arrecadação!
         </h2>
         <p className="text-justify text-white text-lg ">

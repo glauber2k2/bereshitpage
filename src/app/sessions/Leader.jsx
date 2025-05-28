@@ -2,7 +2,7 @@ export default function Leader() {
   return (
     <div className="min-h-screen flex flex-col bg-black text-white px-8 py-24">
       <h1 className="text-white text-center w-full text-4xl font-bold ">
-        Conheça os nossos liders.
+        Conheça os nossos lideres.
       </h1>
       <div className="grid grid-cols-1">
         <div className=" grid grid-cols-2 mt-10 rounded-3xl overflow-hidden min-h-64">

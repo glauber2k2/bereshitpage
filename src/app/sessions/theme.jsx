@@ -26,7 +26,7 @@ export default function Theme() {
 
         <div className="text-center    mt-20">
           <h1 className="text-3xl font-semibold uppercase">E você é o nosso</h1>
-          <h1 className=" text-5xl font-extrabold uppercase">convidado</h1>
+          <h1 className=" text-4xl font-extrabold uppercase">convidado</h1>
           <p className="text-xl mt-4">Deus quer falar com você!</p>
         </div>
       </div>
