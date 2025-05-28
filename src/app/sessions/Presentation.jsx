@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "motion/react";
 import { ArrowDown } from "lucide-react";
 
 export default function Presentation() {
@@ -11,15 +14,35 @@ export default function Presentation() {
 
       {/* Conteúdo acima do overlay */}
       <div className="relative z-10 pb-8 flex flex-col">
-        <h1 className="text-9xl font-bold text-center">Olá</h1>
-        <h1 className="text-3xl font-bold mb-10 text-center">Berezinho(a)</h1>
-        <p className="text-2xl font-bold mb-2">
+        <motion.h1
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          className="text-9xl font-bold text-center"
+        >
+          Olá
+        </motion.h1>
+        <motion.h1
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          className="text-3xl font-bold mb-10 text-center"
+        >
+          Berezinho(a)
+        </motion.h1>
+        <motion.p
+          className="text-2xl font-bold mb-2"
+          initial={{ x: -1000 }}
+          animate={{ x: 0 }}
+        >
           O que é <span className="text-turquoise-400">Bereshit</span> ?
-        </p>
-        <article className="text-lg text-pretty mb-4">
+        </motion.p>
+        <motion.article
+          className="text-lg text-pretty mb-4"
+          initial={{ x: -1000 }}
+          animate={{ x: 0 }}
+        >
           Palavra hebraica que significa &quot;no princípio&quot; ou &quot;no
           começo&quot;.
-        </article>
+        </motion.article>
 
         <div className="w-full h-56 bg-black flex items-center justify-center">
           aqui vai o video

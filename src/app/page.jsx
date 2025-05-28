@@ -7,7 +7,7 @@ import TeamTheme from "./sessions/TeamTheme";
 
 export default function Home() {
   return (
-    <main className="bg-black flex flex-col w-full">
+    <main className="bg-black flex flex-col w-full overflow-x-hidden">
       <Presentation />
       <Leader />
       <Motto />
