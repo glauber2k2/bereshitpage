@@ -1,7 +1,5 @@
 "use client";
-
 import { Menu } from "lucide-react";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function Presentation() {
@@ -14,9 +12,8 @@ export default function Presentation() {
       setTimeout(() => {
         setShowFirst((prev) => !prev);
         setGlitching(false);
-      }, 300); // tempo da animação "glitch"
-    }, 30000); // alternância a cada 20 segundos
-
+      }, 300);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
@@ -25,25 +22,12 @@ export default function Presentation() {
       <div
         className={`transition-opacity ${glitching ? "animate-glitch" : ""}`}
       >
-        {showFirst ? (
-          <Image
-            src="/assets/logo.png"
-            width={1280}
-            height={1280}
-            className="w-6 object-scale-down"
-            alt="Logo"
-          />
-        ) : (
-          <Image
-            src="/assets/bereshitpalavra.png"
-            width={1280}
-            height={1280}
-            className="w-20 object-scale-down"
-            alt="Logo Alternativo"
-          />
-        )}
+        <img
+          src={showFirst ? "/assets/logo.png" : "/assets/bereshitpalavra.png"}
+          className={`object-scale-down ${showFirst ? "w-6" : "w-20"}`}
+          alt="Logo"
+        />
       </div>
-
       <Menu />
     </div>
   );
