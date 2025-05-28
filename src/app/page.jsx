@@ -1,8 +1,9 @@
 import Presentation from "./sessions/Presentation";
 import Leader from "./sessions/Leader";
 import Donate from "./sessions/Donate";
-import Theme from "./sessions/Theme";
+
 import Motto from "./sessions/Motto";
+import Theme from "./sessions/Theme";
 
 export default function Home() {
   return (
