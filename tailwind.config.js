@@ -12,26 +12,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      keyframes: {
-        glitch: {
-          "0%, 100%": { opacity: "1" },
-          "15%": { opacity: "0" },
-          "25%": { opacity: "1" },
-          "35%": { opacity: "0" },
-          "45%": { opacity: "1" },
-          "55%": { opacity: "0" },
-          "65%": { opacity: "1" },
-        },
-        fadeLoop: {
-          "0%, 45%": { opacity: "1" },
-          "50%, 95%": { opacity: "0" },
-          "100%": { opacity: "1" },
-        },
-      },
-      animation: {
-        glitch: "glitch 0.6s ease-in-out",
-        fadeLoop: "fadeLoop 6s infinite",
-      },
+
       colors: {
         turquoise: {
           50: "#eefdfd",
