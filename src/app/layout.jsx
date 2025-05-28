@@ -15,6 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
+      <link rel="icon" href="/favicon.icon" />
       <body className={montserrat.className}>
         <TopBar />
         {children}
