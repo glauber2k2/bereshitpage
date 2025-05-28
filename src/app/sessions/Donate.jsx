@@ -15,7 +15,7 @@ export default function Donate() {
           Ajude quem precisa!
         </h1>
 
-        <h2 className=" font-semibold">
+        <h2 className="text-xl font-semibold text-center">
           Participe da nossa campanha de arrecadação!
         </h2>
         <p className="text-justify text-white text-lg ">
