@@ -1,11 +1,11 @@
 export default function Leader() {
   return (
-    <div className="min-h-screen flex flex-col bg-black text-white px-8 py-24">
+    <div className="min-h-screen sm:min-h-fit flex flex-col bg-black text-white px-8 py-24">
       <h1 className="text-white text-center w-full text-3xl font-bold ">
         Conheça os <br /> nossos lideres.
       </h1>
-      <div className="grid grid-cols-1">
-        <div className=" grid grid-cols-2 mt-10 rounded-3xl overflow-hidden min-h-64">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-4">
+        <div className=" grid grid-cols-2 mt-10 rounded-3xl overflow-hidden min-h-64 sm:min-h-96">
           <div className="bg-[url('/assets/lucas.jpg')] bg-cover bg-center" />
           <div className="p-6 bg-turquoise-500">
             <h1 className="text-2xl font-bold">Lucas</h1>

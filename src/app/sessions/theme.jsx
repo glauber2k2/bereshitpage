@@ -1,8 +1,8 @@
 export default function Theme() {
   return (
-    <div className="relative min-h-screen px-8 pt-24 text-white bg-[url('/assets/creation.jpg')] bg-cover bg-center flex flex-col ">
+    <div className="relative min-h-screen px-8 pt-24 text-white bg-[url('/assets/background.jpg')] bg-cover bg-center flex flex-col ">
       {/* Overlay para escurecer e fazer blur */}
-      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-black/80" />
 
       {/* Conteúdo acima do overlay */}
       <div className="relative z-10 pb-8  flex flex-col">

@@ -5,7 +5,7 @@ import Theme from "./sessions/theme";
 
 export default function Home() {
   return (
-    <main className="bg-turquoise-500 flex flex-col w-full">
+    <main className="bg-black flex flex-col w-full">
       <Presentation />
       <Leader />
       <Donate />
