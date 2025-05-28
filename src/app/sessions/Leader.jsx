@@ -9,7 +9,12 @@ export default function Leader() {
           <div className="bg-[url('/assets/lucas.jpg')] bg-cover bg-center" />
           <div className="p-6 bg-turquoise-500">
             <h1 className="text-2xl font-bold">Lucas</h1>
-            <h2 className="text-lg ">- Líder</h2>
+            <h2 className="text-lg font-semibold">Líder</h2>
+            <ul className="mt-2">
+              <li>Proativo</li>
+              <li>Ouvinte</li>
+              <li>Prudente</li>
+            </ul>
           </div>
         </div>
 
@@ -17,7 +22,13 @@ export default function Leader() {
           <div className="bg-[url('/assets/samara.jpg')] bg-cover bg-center" />
           <div className="p-6 bg-turquoise-500">
             <h1 className="text-2xl font-bold">Samara</h1>
-            <h2 className="text-lg ">- Co-Líder</h2>
+            <h2 className="text-lg font-semibold">Co-Líder</h2>
+
+            <ul className="mt-2">
+              <li>Acolhedora</li>
+              <li>Dedicada</li>
+              <li>Prestativa</li>
+            </ul>
           </div>
         </div>
       </div>

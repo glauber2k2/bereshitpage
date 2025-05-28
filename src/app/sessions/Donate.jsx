@@ -19,7 +19,7 @@ export default function Donate() {
           Participe da nossa campanha de arrecadação!
         </h2>
         <p className="text-justify text-white text-lg ">
-          Estamos nos preparando para um evangelismo na cidade de Teste, onde
+          Estamos nos preparando para um evangelismo na cidade de Igaracy, onde
           vamos levar o amor de Deus e mantimentos para quem mais precisa.
         </p>
 
