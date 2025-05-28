@@ -13,7 +13,9 @@ export default function Presentation() {
       <div className="relative z-10 pb-8 flex flex-col">
         <h1 className="text-9xl font-bold text-center">Olá</h1>
         <h1 className="text-3xl font-bold mb-10 text-center">Berezinho(a)</h1>
-        <p className="text-2xl font-bold mb-2">בְּרֵאשִׁית</p>
+        <p className="text-2xl font-bold mb-2">
+          O que é <span className="text-turquoise-400">Bereshit</span> ?
+        </p>
         <article className="text-lg text-pretty mb-4">
           Palavra hebraica que significa &quot;no princípio&quot; ou &quot;no
           começo&quot;.
