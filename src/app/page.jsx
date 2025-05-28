@@ -3,7 +3,7 @@ import Leader from "./sessions/Leader";
 import Donate from "./sessions/Donate";
 
 import Motto from "./sessions/Motto";
-import Theme from "./sessions/Theme";
+import TeamTheme from "./sessions/TeamTheme";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Leader />
       <Motto />
       <Donate />
-      <Theme />
+      <TeamTheme />
     </main>
   );
 }
