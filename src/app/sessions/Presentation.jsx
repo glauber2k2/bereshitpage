@@ -24,7 +24,7 @@ export default function Presentation() {
         </div>
       </div>
 
-      <ArrowDown className="animate-bounce absolute self-center bottom-4 right-1/2 z-10" />
+      <ArrowDown className="animate-bounce absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10" />
     </div>
   );
 }

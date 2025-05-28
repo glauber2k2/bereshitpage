@@ -15,7 +15,7 @@ export default function Presentation() {
         setShowFirst((prev) => !prev);
         setGlitching(false);
       }, 300); // tempo da animação "glitch"
-    }, 20000); // alternância a cada 6 segundos
+    }, 30000); // alternância a cada 20 segundos
 
     return () => clearInterval(interval);
   }, []);

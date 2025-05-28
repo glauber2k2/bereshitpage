@@ -15,10 +15,12 @@ module.exports = {
       keyframes: {
         glitch: {
           "0%, 100%": { opacity: "1" },
-          "10%": { opacity: "0" },
-          "12%": { opacity: "1" },
-          "14%": { opacity: "0" },
-          "16%": { opacity: "1" },
+          "15%": { opacity: "0" },
+          "25%": { opacity: "1" },
+          "35%": { opacity: "0" },
+          "45%": { opacity: "1" },
+          "55%": { opacity: "0" },
+          "65%": { opacity: "1" },
         },
         fadeLoop: {
           "0%, 45%": { opacity: "1" },
@@ -27,7 +29,7 @@ module.exports = {
         },
       },
       animation: {
-        glitch: "glitch 0.3s ease-in-out",
+        glitch: "glitch 0.6s ease-in-out",
         fadeLoop: "fadeLoop 6s infinite",
       },
       colors: {
