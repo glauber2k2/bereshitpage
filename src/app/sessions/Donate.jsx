@@ -10,17 +10,29 @@ export default function Donate() {
         className="w-full h-full object-cover [mask-image:linear-gradient(to_bottom,black,transparent)]"
         alt="Donate"
       />
-      <div className="px-8 gap-4 flex flex-col">
+      <div className="px-8 gap-6 flex flex-col">
         <h1 className=" text-center w-full text-5xl font-bold text-turquoise-400">
           Ajude quem precisa!
         </h1>
 
-        <p className="text-justify text-white font-semibold text-lg ">
-          Participe da nossa campanha de arrecadação! Estamos nos preparando
-          para um evangelismo na cidade de Teste, onde vamos levar o amor de
-          Deus e mantimentos para quem mais precisa. Sua contribuição pode
-          transformar vidas. Junte-se a nós nessa missão!
+        <h2 className="text-xl font-semibold">
+          Participe da nossa campanha de arrecadação!
+        </h2>
+        <p className="text-justify text-white text-lg ">
+          Estamos nos preparando para um evangelismo na cidade de Teste, onde
+          vamos levar o amor de Deus e mantimentos para quem mais precisa.
         </p>
+
+        <p className="text-lg text-justify">
+          Sua contribuição pode transformar vidas. Junte-se a nós nessa missão!
+        </p>
+
+        <button
+          type="button"
+          className="px-4 py-2 rounded-full bg-turquoise-100 text-turquoise-700 font-bold my-2"
+        >
+          Quero ajudar!
+        </button>
       </div>
     </div>
   );
