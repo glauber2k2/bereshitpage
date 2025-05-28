@@ -13,7 +13,7 @@ export default function Presentation() {
         setShowFirst((prev) => !prev);
         setGlitching(false);
       }, 300);
-    }, 5000);
+    }, 30000);
     return () => clearInterval(interval);
   }, []);
 
