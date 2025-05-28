@@ -6,7 +6,7 @@ export default function Theme() {
 
       {/* Conteúdo acima do overlay */}
       <div className="relative z-10 pb-8  flex flex-col">
-        <div className="text-center font-bold text-3xl uppercase">
+        <div className="text-center font-bold text-2xl uppercase">
           <h1>Um novo nome,</h1>
           <h1 className="bg-turquoise-400">Uma nova vida.</h1>
         </div>
@@ -24,8 +24,8 @@ export default function Theme() {
           </p>
         </div>
 
-        <div className="text-center    mt-20">
-          <h1 className="text-3xl font-semibold uppercase">E você é o nosso</h1>
+        <div className="text-center mt-20">
+          <h1 className="text-2xl font-semibold uppercase">E você é o nosso</h1>
           <h1 className=" text-4xl font-extrabold uppercase">convidado</h1>
           <p className="text-xl mt-4">Deus quer falar com você!</p>
         </div>
