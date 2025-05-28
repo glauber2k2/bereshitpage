@@ -17,6 +17,7 @@ export default function Presentation() {
         <motion.h1
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
+          transition={{ delay: 0.3 }}
           className="text-9xl font-bold text-center"
         >
           Olá
@@ -24,6 +25,7 @@ export default function Presentation() {
         <motion.h1
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
+          transition={{ delay: 0.4 }}
           className="text-3xl font-bold mb-10 text-center"
         >
           Berezinho(a)
@@ -32,6 +34,7 @@ export default function Presentation() {
           className="text-2xl font-bold mb-2"
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
+          transition={{ delay: 0.5 }}
         >
           O que é <span className="text-turquoise-400">Bereshit</span> ?
         </motion.p>
@@ -39,14 +42,20 @@ export default function Presentation() {
           className="text-lg text-pretty mb-4"
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
+          transition={{ delay: 0.6 }}
         >
           Palavra hebraica que significa &quot;no princípio&quot; ou &quot;no
           começo&quot;.
         </motion.article>
 
-        <div className="w-full h-56 bg-black flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.8 }}
+          className="w-full h-56 bg-black flex items-center justify-center"
+        >
           aqui vai o video
-        </div>
+        </motion.div>
       </div>
 
       <ArrowDown className="animate-bounce absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10" />

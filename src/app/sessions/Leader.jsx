@@ -6,15 +6,23 @@ import { useInView, motion } from "framer-motion";
 export default function Leader() {
   const ref1 = useRef(null);
   const ref2 = useRef(null);
+  const ref3 = useRef(null);
 
   const isInView1 = useInView(ref1, { once: true, margin: "-50px" });
   const isInView2 = useInView(ref2, { once: true, margin: "-50px" });
+  const isInView3 = useInView(ref3, { once: true, margin: "-50px" });
 
   return (
     <div className="min-h-screen sm:min-h-fit flex flex-col bg-black text-white px-8 py-24">
-      <h1 className="text-white text-center w-full text-3xl font-bold">
+      <motion.h1
+        ref={ref3}
+        initial={{ scale: 0.5 }}
+        animate={isInView3 ? { scale: 1 } : {}}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="text-white text-center w-full text-3xl font-bold"
+      >
         Conheça os <br /> nossos líderes.
-      </h1>
+      </motion.h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-4">
         {/* Card Lucas */}
         <motion.div
