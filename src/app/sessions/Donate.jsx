@@ -24,7 +24,7 @@ export default function Donate() {
 
   return (
     <div
-      className="min-h-screen sm:min-h-fit flex flex-col sm:flex-row bg-turquoise-900 text-white sm:grid grid-cols-2"
+      className="min-h-screen sm:min-h-fit flex flex-col sm:flex-row bg-turquoise-900 text-white sm:grid grid-cols-2 overflow-hidden"
       id="ajuda"
     >
       <motion.div
@@ -43,7 +43,7 @@ export default function Donate() {
           src="/assets/donate.jpg"
           width={1280}
           height={1280}
-          className="w-ful h-full object-cover [mask-image:linear-gradient(to_bottom,black,transparent)]"
+          className="w-ful h-full object-cover  [mask-image:linear-gradient(to_bottom,black,transparent)] sm:[mask-image:linear-gradient(to_left,black,transparent)] sm:scale-x-[-1]"
           alt="Donate"
         />
       </motion.div>
