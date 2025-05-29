@@ -41,7 +41,7 @@ export default function DonateBottomSheet() {
     <>
       <button
         onClick={openSheet}
-        className="px-4 py-2 rounded-full bg-turquoise-100 text-turquoise-700 font-bold"
+        className="px-4 py-2 rounded-full bg-turquoise-100 text-turquoise-700 font-bold w-full hover:bg-turquoise-200"
       >
         Quero ajudar!
       </button>
