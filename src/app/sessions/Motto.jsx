@@ -15,7 +15,7 @@ export default function Motto() {
   const isInView4 = useInView(ref4, { once: true });
 
   return (
-    <div className="relative min-h-screen px-8 pt-24 text-white bg-[url('/assets/lucasesamara.jpg')] bg-cover bg-center flex flex-col">
+    <div className="relative min-h-screen px-8  text-white bg-[url('/assets/lucasesamara.jpg')] bg-cover bg-center flex flex-col">
       {/* Overlay para escurecer */}
       <div className="absolute inset-0 bg-black/80" />
 

@@ -5,7 +5,10 @@ import { ArrowDown } from "lucide-react";
 
 export default function Presentation() {
   return (
-    <div className="relative min-h-screen px-8 pt-24 text-white bg-[url('/assets/earth.jpg')] bg-cover bg-center bg-no-repeat">
+    <div
+      className="relative min-h-screen px-8 pt-24 text-white bg-[url('/assets/earth.jpg')] bg-cover bg-center bg-no-repeat"
+      id="presentation"
+    >
       {/* Overlay escurecido e blur */}
       <div className="absolute inset-0 bg-black/80  z-0" />
 

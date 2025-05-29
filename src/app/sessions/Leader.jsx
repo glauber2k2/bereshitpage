@@ -13,7 +13,10 @@ export default function Leader() {
   const isInView3 = useInView(ref3, { once: true, margin: "-50px" });
 
   return (
-    <div className="min-h-screen sm:min-h-fit flex flex-col bg-black text-white px-8 py-24">
+    <div
+      className="min-h-screen sm:min-h-fit flex flex-col bg-black text-white px-8 py-24"
+      id="sobre"
+    >
       <motion.h1
         ref={ref3}
         initial={{ scale: 0.5 }}

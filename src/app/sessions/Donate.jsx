@@ -19,11 +19,13 @@ export default function Donate() {
     margin: "-100px",
   });
   const isText1InView = useInView(text1Ref, { once: true, margin: "-100px" });
-  const isText2InView = useInView(text2Ref, { once: true, margin: "-100px" });
-  const isButtonInView = useInView(buttonRef, { once: true, margin: "-100px" });
+  const isButtonInView = useInView(buttonRef, { once: true, margin: "-50px" });
 
   return (
-    <div className="min-h-screen flex flex-col bg-turquoise-900 text-white">
+    <div
+      className="min-h-screen flex flex-col bg-turquoise-900 text-white"
+      id="ajuda"
+    >
       <motion.div
         ref={imageRef}
         initial={{ scale: 1 }}
@@ -44,7 +46,7 @@ export default function Donate() {
         />
       </motion.div>
 
-      <div className="px-8 gap-6 flex flex-col">
+      <div className="-mt-10 px-8 gap-6 flex flex-col">
         <motion.h1
           ref={titleRef}
           initial={{ opacity: 0, y: -20 }}
@@ -76,21 +78,11 @@ export default function Donate() {
           vamos levar o amor de Deus e mantimentos para quem mais precisa.
         </motion.p>
 
-        <motion.p
-          ref={text2Ref}
-          initial={{ opacity: 0, y: 20 }}
-          animate={isText2InView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-          className="text-lg text-justify"
-        >
-          Sua contribuição pode transformar vidas. Junte-se a nós nessa missão!
-        </motion.p>
-
         <motion.button
           ref={buttonRef}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={isButtonInView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           type="button"
           className="px-4 py-2 rounded-full bg-turquoise-100 text-turquoise-700 font-bold my-2"
         >
