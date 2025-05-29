@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
+import DonateModal from "../components/DonateModal";
 
 export default function Donate() {
   const imageRef = useRef(null);
@@ -78,16 +79,16 @@ export default function Donate() {
           vamos levar o amor de Deus e mantimentos para quem mais precisa.
         </motion.p>
 
-        <motion.button
+        <motion.div
           ref={buttonRef}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={isButtonInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6, ease: "easeOut" }}
           type="button"
-          className="px-4 py-2 rounded-full bg-turquoise-100 text-turquoise-700 font-bold my-2"
+          className="my-2"
         >
-          Quero ajudar!
-        </motion.button>
+          <DonateModal />
+        </motion.div>
       </div>
     </div>
   );
