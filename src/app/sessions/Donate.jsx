@@ -54,7 +54,7 @@ export default function Donate() {
           initial={{ opacity: 0, y: -20 }}
           animate={isTitleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-center w-full text-4xl font-bold text-turquoise-400 sm:text-8xl sm:mb-10"
+          className="text-center w-full text-4xl font-bold text-turquoise-400 sm:text-6xl xl:text-8xl sm:mb-10"
         >
           Ajude quem precisa!
         </motion.h1>
