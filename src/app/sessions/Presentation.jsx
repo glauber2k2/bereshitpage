@@ -55,7 +55,7 @@ export default function Presentation() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className="w-full h-56 bg-black flex items-center justify-center"
+          className="w-full h-56 bg-black flex items-center justify-center sm:h-96"
         >
           aqui vai o video
         </motion.div>

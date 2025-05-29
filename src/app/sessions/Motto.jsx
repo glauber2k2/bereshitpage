@@ -27,7 +27,7 @@ export default function Motto() {
           initial={{ scale: 0 }}
           animate={isInView1 ? { scale: 1 } : {}}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-4xl text-center font-extrabold"
+          className="text-4xl sm:text-5xl text-center font-extrabold sm:mt-16"
         >
           Nosso lema<span className="text-turquoise-400">.</span>
         </motion.h1>
@@ -41,11 +41,13 @@ export default function Motto() {
             animate={isInView2 ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h2 className="text-xl">
-              <span className="text-turquoise-400 font-bold text-4xl">1. </span>
+            <h2 className="text-xl sm:text-5xl">
+              <span className="text-turquoise-400 font-bold text-4xl sm:text-7xl">
+                1.{" "}
+              </span>
               Glorificar a Deus
             </h2>
-            <p className="mt-4 text-xs text-justify">
+            <p className="mt-4 text-xs text-justify sm:text-3xl sm:w-3/4">
               Tudo que fazemos, desde arrecadação de alimentos, roupas e
               sapatos, até as programações formais e informais da equipe, tem
               como objetivo honrar a Deus a todo instante, tendo em vista que a
@@ -61,11 +63,13 @@ export default function Motto() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-end"
           >
-            <h2 className="text-xl">
-              <span className="text-turquoise-400 font-bold text-4xl">2. </span>
+            <h2 className="text-xl sm:text-5xl">
+              <span className="text-turquoise-400 font-bold text-4xl sm:text-7xl">
+                2.{" "}
+              </span>
               Amar pessoas
             </h2>
-            <p className="mt-4 text-xs text-justify">
+            <p className="mt-4 text-xs text-justify sm:text-3xl sm:w-3/4 ml-auto">
               A gincana é mais do que sobre ganhar, é sobre construir laços
               dentro da equipe, sobre ser empático com nossos irmãos, sejam eles
               Beresinhos ou de outra equipe. Nós entendemos que a gincana é
@@ -82,11 +86,13 @@ export default function Motto() {
             animate={isInView4 ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h2 className="text-xl">
-              <span className="text-turquoise-400 font-bold text-4xl">3. </span>
+            <h2 className="text-xl sm:text-5xl">
+              <span className="text-turquoise-400 font-bold text-4xl sm:text-7xl">
+                3.{" "}
+              </span>
               Propagar Jesus
             </h2>
-            <p className="mt-4 text-xs text-justify">
+            <p className="mt-4 text-xs text-justify sm:text-3xl sm:w-3/4">
               Tudo o que fazemos tem um cunho evangelístico. Queremos que
               através de nossas escolhas e ações Jesus seja manifesto, que nosso
               amor e nossa conduta revelem Jesus, pois maior do que a Bereshit,

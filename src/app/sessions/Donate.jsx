@@ -24,10 +24,11 @@ export default function Donate() {
 
   return (
     <div
-      className="min-h-screen flex flex-col bg-turquoise-900 text-white"
+      className="min-h-screen sm:min-h-fit flex flex-col sm:flex-row bg-turquoise-900 text-white sm:grid grid-cols-2"
       id="ajuda"
     >
       <motion.div
+        className=""
         ref={imageRef}
         initial={{ scale: 1 }}
         animate={
@@ -42,18 +43,18 @@ export default function Donate() {
           src="/assets/donate.jpg"
           width={1280}
           height={1280}
-          className="w-full h-full object-cover [mask-image:linear-gradient(to_bottom,black,transparent)]"
+          className="w-ful h-full object-cover [mask-image:linear-gradient(to_bottom,black,transparent)]"
           alt="Donate"
         />
       </motion.div>
 
-      <div className="-mt-10 px-8 gap-6 flex flex-col">
+      <div className="-mt-10 sm:mt-0 px-8 gap-6 flex flex-col sm:justify-center sm:px-20">
         <motion.h1
           ref={titleRef}
           initial={{ opacity: 0, y: -20 }}
           animate={isTitleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-center w-full text-4xl font-bold text-turquoise-400"
+          className="text-center w-full text-4xl font-bold text-turquoise-400 sm:text-8xl sm:mb-10"
         >
           Ajude quem precisa!
         </motion.h1>
@@ -63,7 +64,7 @@ export default function Donate() {
           initial={{ opacity: 0, y: -20 }}
           animate={isSubtitleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          className="text-xl font-semibold text-center"
+          className="text-xl font-semibold text-center sm:text-3xl"
         >
           Participe da nossa campanha de arrecadação!
         </motion.h2>
@@ -73,7 +74,7 @@ export default function Donate() {
           initial={{ opacity: 0, y: 20 }}
           animate={isText1InView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-          className="text-justify text-white text-lg"
+          className="text-justify text-white text-lg sm:text-2xl"
         >
           Estamos nos preparando para um evangelismo na cidade de Igaracy, onde
           vamos levar o amor de Deus e mantimentos para quem mais precisa.

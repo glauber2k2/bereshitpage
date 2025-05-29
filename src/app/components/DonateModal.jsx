@@ -65,10 +65,10 @@ export default function DonateBottomSheet() {
               exit={{ y: "100%" }}
               transition={{ type: "tween", duration: 0.4 }}
               className="fixed  bottom-0 left-0 right-0 bg-black text-white rounded-t-2xl p-6 z-50 
-              shadow-2xl max-h-[90vh] overflow-y-auto"
+              shadow-2xl max-h-[90vh] overflow-y-auto sm:p-10"
             >
               <div className="flex justify-between items-center mb-4">
-                <h2 className="text-xl font-bold text-turquoise-400">
+                <h2 className="text-xl font-bold text-turquoise-400 sm:text-2xl">
                   Faça sua doação
                 </h2>
                 <button onClick={closeSheet}>
@@ -76,34 +76,34 @@ export default function DonateBottomSheet() {
                 </button>
               </div>
 
-              <p className="text-sm text-white/80 mb-6">
+              <p className="text-sm text-white/80 mb-6 sm:text-base">
                 Sua ajuda pode transformar vidas. Contribua com alimentos,
                 roupas ou ofertas para a missão em Igaracy.
               </p>
 
-              <div className="grid grid-cols-2 gap-3">
-                <div className="flex flex-col gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div className="flex flex-col gap-4 sm:col-span-3">
                   <button
                     type="button"
                     placeholder="Nome"
-                    className="font-medium px-4 py-2 bg-green-700 flex items-center justify-center gap-2 text-lg"
+                    className="font-medium px-4 py-2 bg-green-700 sm:h-full flex items-center justify-center gap-2 text-lg"
                   >
                     Entregar a Lucas
                   </button>
                   <button
                     type="button"
                     placeholder="Email"
-                    className="font-medium px-4 py-2 bg-green-700 flex items-center justify-center gap-2 text-lg"
+                    className="font-medium px-4 py-2 bg-green-700 sm:h-full flex items-center justify-center gap-2 text-lg"
                   >
                     Entregar a Samara
                   </button>
                 </div>
                 <img
                   src={"/assets/pixbereshit.jpg"}
-                  className="object-scale-down "
+                  className="object-scale-down sm:ml-auto"
                 />
               </div>
-              <div className="mt-4 flex gap-2 items-center">
+              <div className="mt-4 flex gap-2 items-center sm:justify-end">
                 <button
                   className="p-2 bg-white/5 rounded-md hover:bg-white/10 transition"
                   type="button"

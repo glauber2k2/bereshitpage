@@ -22,9 +22,9 @@ export default function Leader() {
         initial={{ scale: 0.5 }}
         animate={isInView3 ? { scale: 1 } : {}}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="text-white text-center w-full text-3xl font-bold"
+        className="text-white text-center sm:text-start w-full text-3xl font-bold sm:text-4xl"
       >
-        Conheça os <br /> nossos líderes.
+        Conheça os nossos líderes.
       </motion.h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-4">
         {/* Card Lucas */}
@@ -35,11 +35,11 @@ export default function Leader() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="grid grid-cols-2 mt-10 rounded-3xl overflow-hidden min-h-64 sm:min-h-96"
         >
-          <div className="bg-[url('/assets/lucas.jpg')] bg-cover bg-center" />
+          <div className="bg-[url('/assets/lucas.jpg')] bg-cover bg-center sm:bg-top" />
           <div className="p-6 bg-turquoise-500">
-            <h1 className="text-2xl font-bold">Lucas</h1>
-            <h2 className="text-lg font-semibold">Líder</h2>
-            <ul className="mt-2">
+            <h1 className="text-2xl font-bold sm:text-4xl">Lucas</h1>
+            <h2 className="text-lg font-semibold sm:text-xl">Líder</h2>
+            <ul className="mt-2 sm:text-xl sm:mt-10">
               <li>Proativo</li>
               <li>Ouvinte</li>
               <li>Prudente</li>
@@ -55,11 +55,11 @@ export default function Leader() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="grid grid-cols-2 mt-10 rounded-3xl overflow-hidden min-h-64"
         >
-          <div className="bg-[url('/assets/samara.jpg')] bg-cover bg-center" />
+          <div className="bg-[url('/assets/samara.jpg')] bg-cover bg-center sm:bg-top" />
           <div className="p-6 bg-turquoise-500">
-            <h1 className="text-2xl font-bold">Samara</h1>
-            <h2 className="text-lg font-semibold">Co-Líder</h2>
-            <ul className="mt-2">
+            <h1 className="text-2xl font-bold sm:text-4xl">Samara</h1>
+            <h2 className="text-lg font-semibold sm:text-xl">Co-Líder</h2>
+            <ul className="mt-2 sm:text-xl sm:mt-10">
               <li>Acolhedora</li>
               <li>Dedicada</li>
               <li>Prestativa</li>
