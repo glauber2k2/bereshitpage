@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 export default function Countdown() {
   const targetDate = new Date("2025-07-19T00:00:00");
 
+  const formatNumber = (num) => String(num).padStart(2, "0");
+
   const calculateTimeLeft = () => {
     const now = new Date();
 
@@ -33,8 +35,11 @@ export default function Countdown() {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true); // Sinaliza que está no cliente
+
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
@@ -42,19 +47,31 @@ export default function Countdown() {
     return () => clearInterval(timer);
   }, []);
 
+  if (!isClient) {
+    // Evita renderizar no server
+    return null;
+  }
+
   if (timeLeft.status === "today") {
-    return <p className="text-xl font-bold text-turquoise-400">É hoje!</p>;
+    return (
+      <p className="text-center text-lg sm:text-xl font-bold text-turquoise-400">
+        É hoje!
+      </p>
+    );
   }
 
   if (timeLeft.status === "past") {
     return (
-      <p className="text-xl font-bold text-turquoise-400">Memorial Bereshit</p>
+      <p className="text-center text-lg sm:text-xl font-bold text-turquoise-400">
+        Memorial Bereshit
+      </p>
     );
   }
 
   return (
-    <p className="text-xs sm:text-xl font-semibold text-white">
-      {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+    <p className="text-center text-sm sm:text-base font-semibold text-white">
+      {timeLeft.days}d {formatNumber(timeLeft.hours)}h{" "}
+      {formatNumber(timeLeft.minutes)}m {formatNumber(timeLeft.seconds)}s
     </p>
   );
 }
