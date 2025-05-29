@@ -1,6 +1,6 @@
 "use client";
 
-import { useInView, motion } from "framer-motion";
+import { useInView, motion } from "motion/react";
 import { useRef } from "react";
 
 export default function Motto() {

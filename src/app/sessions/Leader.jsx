@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { useInView, motion } from "framer-motion";
+import { useInView, motion } from "motion/react";
 
 export default function Leader() {
   const ref1 = useRef(null);
