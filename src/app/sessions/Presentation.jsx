@@ -17,7 +17,7 @@ export default function Presentation() {
       <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/80 to-transparent z-0" />
 
       {/* Conteúdo acima do overlay */}
-      <div className="relative z-10 pb-8 flex flex-col">
+      <div className="relative z-10 pb-8 flex flex-col sm:items-center">
         <motion.h1
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -35,15 +35,15 @@ export default function Presentation() {
           Berezinho(a)
         </motion.h1>
         <motion.p
-          className="text-2xl font-bold mb-2"
+          className="text-2xl font-bold mb-2 sm:text-6xl"
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
           transition={{ delay: 0.5 }}
         >
-          O que é <span className="text-turquoise-400">Bereshit</span> ?
+          O que é <span className="text-turquoise-400 ">Bereshit</span> ?
         </motion.p>
         <motion.article
-          className="text-lg text-pretty mb-4"
+          className="text-lg text-pretty mb-4 sm:text-xl"
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
           transition={{ delay: 0.6 }}
@@ -56,11 +56,11 @@ export default function Presentation() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className="w-full h-56 bg-black flex items-center justify-center sm:h-96"
+          className="w-full h-56 bg-black sm:w-1/2 flex items-center justify-center sm:h-96"
         >
           <VideoAutoplay />
         </motion.div>
-        <ArrowDown className="animate-bounce self-center" />
+        <ArrowDown className="animate-bounce self-center mt-2 sm:mt-6" />
       </div>
     </div>
   );
