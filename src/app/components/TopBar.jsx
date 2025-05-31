@@ -149,7 +149,7 @@ export default function Presentation() {
               <div className="mt-auto flex items-center gap-2 justify-between">
                 <p className="text-white text-xs">contagem de acessos: </p>
                 <img
-                  src="http://contador.kinghost.com.br/contador.cgi?ft=1|df=equipebereshit.com.br"
+                  src="https://counter1.optistats.ovh/private/freecounterstat.php?c=gta9wzbxykjht1f8ytthq8kae22rrfh5"
                   alt="Contador de visitas"
                   className="object-scale-down h-3"
                 />
