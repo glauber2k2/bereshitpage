@@ -146,16 +146,7 @@ export default function Presentation() {
                 </button>
               </nav>
 
-              <div className="mt-auto flex items-center gap-2 justify-between">
-                <p className="text-white text-xs">contagem de acessos: </p>
-                <img
-                  src="https://counter1.optistats.ovh/private/freecounterstat.php?c=gta9wzbxykjht1f8ytthq8kae22rrfh5"
-                  alt="Contador de visitas"
-                  className="object-scale-down h-3"
-                />
-              </div>
-
-              <div className="">
+              <div className="mt-auto">
                 <p className="text-xs text-white/60">
                   © {new Date().getFullYear()} Bereshit. Todos os direitos
                   reservados.
