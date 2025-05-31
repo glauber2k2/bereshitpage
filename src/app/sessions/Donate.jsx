@@ -48,7 +48,7 @@ export default function Donate() {
         />
       </motion.div>
 
-      <div className="-mt-10 sm:mt-0 px-8 gap-6 flex flex-col sm:justify-center sm:px-20">
+      <div className="-mt-10 sm:mt-0 px-8 gap-6 flex flex-col sm:justify-center sm:px-20 sm:py-8">
         <motion.h1
           ref={titleRef}
           initial={{ opacity: 0, y: -20 }}
@@ -64,7 +64,7 @@ export default function Donate() {
           initial={{ opacity: 0, y: -20 }}
           animate={isSubtitleInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          className="text-xl font-semibold text-center sm:text-3xl"
+          className="text-xl font-semibold text-center xl:text-3xl"
         >
           Participe da nossa campanha de arrecadação!
         </motion.h2>
