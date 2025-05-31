@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import { ArrowDown } from "lucide-react";
+import VideoAutoplay from "../components/Video";
 
 export default function Presentation() {
   return (
@@ -57,11 +58,10 @@ export default function Presentation() {
           transition={{ delay: 0.8 }}
           className="w-full h-56 bg-black flex items-center justify-center sm:h-96"
         >
-          aqui vai o video
+          <VideoAutoplay />
         </motion.div>
+        <ArrowDown className="animate-bounce self-center" />
       </div>
-
-      <ArrowDown className="animate-bounce absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10" />
     </div>
   );
 }
