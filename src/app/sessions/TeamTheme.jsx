@@ -23,7 +23,7 @@ export default function TeamTheme() {
             19/07
           </h2>
           <p className="text-xl font-semibold bg-turquoise-400 sm:text-6xl">
-            Sábado ás 19:30
+            Sábado ás 19:00
           </p>
         </div>
 
