@@ -146,7 +146,16 @@ export default function Presentation() {
                 </button>
               </nav>
 
-              <div className="mt-auto">
+              <div className="mt-auto flex items-center gap-2 justify-between">
+                <p className="text-white text-xs">contagem de acessos: </p>
+                <img
+                  src="http://contador.kinghost.com.br/contador.cgi?ft=1|df=equipebereshit.com.br"
+                  alt="Contador de visitas"
+                  className="object-scale-down h-3"
+                />
+              </div>
+
+              <div className="">
                 <p className="text-xs text-white/60">
                   © {new Date().getFullYear()} Bereshit. Todos os direitos
                   reservados.
