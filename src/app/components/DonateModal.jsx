@@ -83,20 +83,20 @@ export default function DonateBottomSheet() {
 
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 <div className="flex flex-col gap-4 sm:col-span-3">
-                  <button
-                    type="button"
+                  <a
+                    href="https://wa.me/558386470566"
                     placeholder="Nome"
                     className="font-medium px-4 py-2 bg-green-700 sm:h-full flex items-center justify-center gap-2 text-lg"
                   >
                     Entregar a Lucas
-                  </button>
-                  <button
-                    type="button"
+                  </a>
+                  <a
+                    href="https://wa.me/558386015711"
                     placeholder="Email"
                     className="font-medium px-4 py-2 bg-green-700 sm:h-full flex items-center justify-center gap-2 text-lg"
                   >
                     Entregar a Samara
-                  </button>
+                  </a>
                 </div>
                 <img
                   src={"/assets/pixbereshit.jpg"}
