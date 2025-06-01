@@ -4,6 +4,7 @@
 import { quizzes } from "@/data/quizzes";
 import { useState, useRef } from "react";
 import { useRouter } from "next/navigation";
+import { Send } from "lucide-react";
 
 export default function QuizRunner({ params }) {
   const router = useRouter();
@@ -39,21 +40,6 @@ export default function QuizRunner({ params }) {
     return "Opa! Bora revisar o conteúdo e tentar outra vez!";
   };
 
-  const handleShare = () => {
-    const percent = Math.round((score / quiz.questions.length) * 100);
-    const text = `Acabei de fazer o "${quiz.title}" e acertei ${percent}% das questões! 💡`;
-    const url = window.location.origin + "/quiz";
-
-    if (navigator.share) {
-      navigator
-        .share({ title: "Meu resultado no Quiz!", text, url })
-        .catch(() => alert("Não foi possível compartilhar."));
-    } else {
-      navigator.clipboard.writeText(`${text} ${url}`);
-      alert("Link copiado para área de transferência!");
-    }
-  };
-
   const handleDownloadImage = async () => {
     if (!exportRef.current) return;
 
@@ -70,7 +56,6 @@ export default function QuizRunner({ params }) {
     link.click();
   };
 
-  const percent = Math.round((score / quiz.questions.length) * 100);
   const mensagem = getMessage();
 
   return (
@@ -172,16 +157,11 @@ export default function QuizRunner({ params }) {
                 Voltar para seleção
               </button>
               <button
-                onClick={handleShare}
-                className="bg-blue-600 font-bold text-white px-4 py-2 rounded"
-              >
-                Compartilhar
-              </button>
-              <button
                 onClick={handleDownloadImage}
-                className="bg-green-600 font-bold text-white px-4 py-2 rounded"
+                className="bg-zinc-800 font-bold text-turquoise-100 px-4 py-2 rounded flex gap-2 items-center justify-center"
               >
-                Baixar imagem
+                <Send size={20} />
+                Publicar
               </button>
             </div>
           </div>
