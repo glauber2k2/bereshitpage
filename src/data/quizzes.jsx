@@ -151,4 +151,122 @@ export const quizzes = [
       }
     ]
   },
+
+  {
+  "id": "genesiscinco",
+  "title": "Quiz de Gênesis - Capítulo 5",
+  "questions": [
+    {
+      "question": "Qual a possível interpretação para o nome “Caim” conforme o texto?",
+      "options": [
+        "“O Senhor me abençoou com uma criança”",
+        "“Adquiri um varão com o auxílio do Senhor”",
+        "“Homem mortal”",
+        "“O escolhido de Deus”"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "O que Abel ofereceu a Deus como sacrifício?",
+      "options": [
+        "O fruto da terra",
+        "As primícias e a gordura das ovelhas",
+        "Um cordeiro sem defeito",
+        "Incenso e farinha"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual foi a reação de Caim após o diálogo com Deus?",
+      "options": [
+        "Arrependeu-se e buscou reconciliação",
+        "Ignorou e afastou-se de sua família",
+        "Chamou Abel ao campo e o matou",
+        "Ofereceu nova oferta para agradar a Deus"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Para onde Caim foi habitar após ser sentenciado por Deus?",
+      "options": [
+        "Em Canaã",
+        "Na terra de Node, ao oriente do Éden",
+        "Na cidade de Babel",
+        "No deserto de Paran"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual dos descendentes de Caim foi o primeiro homem bígamo mencionado?",
+      "options": [
+        "Enoque",
+        "Irade",
+        "Lameque",
+        "Tubalcaim"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "O que marca o nascimento de Enos, neto de Adão?",
+      "options": [
+        "A fundação da primeira cidade",
+        "O início da idolatria",
+        "O começo da invocação do nome do Senhor",
+        "A instituição do sacrifício animal"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quando Deus questiona Caim sobre seu semblante decaído e sua fúria, que doutrina teológica importante está implícita na advertência divina: “o pecado jaz à porta”?",
+      "options": [
+        "O determinismo divino sobre o comportamento humano",
+        "A inevitabilidade do pecado",
+        "A responsabilidade humana frente às tentações",
+        "A impossibilidade de resistir ao mal sem intervenção divina direta"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qual elemento do juízo divino sobre Caim reflete um princípio de graça e proteção mesmo após o pecado?",
+      "options": [
+        "Deus permite que Caim construa uma cidade para seus descendentes",
+        "O sinal posto em Caim para que ninguém o matasse",
+        "A permissão de Caim oferecer uma nova oferta",
+        "A promessa de que o solo voltaria a frutificar após sete gerações"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "No relato dos descendentes de Caim, que aspecto cultural relevante é apresentado pela genealogia, evidenciando o avanço da humanidade?",
+      "options": [
+        "O surgimento das primeiras profissões especializadas",
+        "A institucionalização da religião forma",
+        "A criação de leis civis para regular a vingança",
+        "A introdução da agricultura sistemática"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "A fala de Lameque sobre matar dois homens e sua referência à vingança “setenta vezes sete” indica principalmente:",
+      "options": [
+        "A perpetuação da violência como solução de conflitos",
+        "O surgimento da legítima defesa no pensamento humano",
+        "A condenação moral de seus atos por parte de Deus",
+        "A reverência à memória de Caim como herói familiar"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "O nascimento de Sete, após a morte de Abel, é teologicamente interpretado como:",
+      "options": [
+        "Um substituto simbólico para a linhagem piedosa interrompida",
+        "A redenção final de Caim",
+        "O início da maldição sobre toda a terra",
+        "Um momento de alegria após a perda de um filho amado."
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
+
 ];
