@@ -1,4 +1,4 @@
-import { Instagram } from "lucide-react";
+import { Dices, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,6 +15,10 @@ export default function Footer() {
       >
         <Instagram size={16} />
         Instagram
+      </a>
+      <a className="text-white/70 flex items-center gap-2 mt-2" href="/quiz">
+        <Dices size={16} />
+        Quiz Bereshit
       </a>
 
       <div className="mt-10 border-t text-white/70 pt-8 border-white/70">

@@ -29,244 +29,281 @@ export const quizzes = [
   },
 
   {
-  "id": "genesisum",
-  "title": "Quiz de Gênesis - Capítulo 1",
-  "questions": [
-    {
-      "question": "O que ou quem se movia sobre as águas enquanto a Terra era sem forma, vazia e havia trevas sobre a face das águas?",
-      "options": ["Jesus", "A escuridão", "O espírito", "Uma névoa"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "o que Deus fez no segundo dia ?",
-      "options": ["O firmamento e fez separação de águas e águas.", "Criou o sol, a lua e estrelas.", "O firmamento e os seres que estejam.", "A vegetação ."],
-      "correctAnswer": 0
-    },
-    {
-      "question": "No terceiro dia , após Deus ter ordenado que a porção seca ( chamada terra) , depois de nomear o ajuntamento de águas de marés, o que mais ele ordenou?",
-      "options": ["Que os mares se movessem sobre a terra.", "Que a Terra produzisse relva, e as ervam dessem sementes e as árvores dessem frutos.", "Que as aves fossem criadas, e os anfíbios e répteis também.", "Nenhuma das opções."],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Quem foram os animais que Deus abençoou na criação?",
-      "options": ["Répteis e gafanhotos.", "Aves , animais marinhos e répteis aquáticos.", "Aves e peixes .", "Deus não abençoou animais."],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Quantas vezes em Gênesis 1 está escrito: “ E viu Deus que era bom”?",
-      "options": ["3", "6", "7", "Nenhuma vez."],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Sobre o quarto dia da criação responda corretamente, para que servem os luzeiros ou liminares criados por Deus:",
-      "options": ["Governar dia e noite, e para servirem de proteção.", "Para direcionar os astros e horóscupo.", "Para governar dia e noite, e servirem de sinais, estações,  dias e anos.", "Para a lua ser cheia de luz por conta do sol que é um astro e não apenas uma estrela."],
-      "correctAnswer": 2
-    },
-    {
-      "question": "No sexto dia da criação Deus ordenou que quem produzisse animais que fossem répteis, domésticos e selvagens.",
-      "options": ["O vento", "Ele mesmo", "A Terra", "O espírito"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Em que dia da criação Deus ordenou que as aves voassem abaixo e acima do firmamento dos céus?",
-      "options": ["No segundo", "No primeiro", "No quinto", "No último"],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Ao final do capítulo 1 relata que Deus ordena algo ao homem e a mulher, o que ele disse :",
-      "options": ["Sejam de fundos , se multipliquem e dominem a terra e tudo que nela há, assim como todos os animais.", "Sejam expulsos do jardim", "Dominem apenas os animais que são terrestres.", "Comam de tudo , menos da árvore do conhecimento do bem e do mal."],
-      "correctAnswer": 0
-    },
-    {
-      "question": "O que Deus deu a Adão e Eva como mantimento?",
-      "options": ["trigo", "ervas verdes", "Frutas", "Maçãs"],
-      "correctAnswer": 1
-      }
-    ]
+    id: "genesisum",
+    title: "Quiz de Gênesis - Capítulo 1",
+    questions: [
+      {
+        question:
+          "O que ou quem se movia sobre as águas enquanto a Terra era sem forma, vazia e havia trevas sobre a face das águas?",
+        options: ["Jesus", "A escuridão", "O espírito", "Uma névoa"],
+        correctAnswer: 2,
+      },
+      {
+        question: "o que Deus fez no segundo dia ?",
+        options: [
+          "O firmamento e fez separação de águas e águas.",
+          "Criou o sol, a lua e estrelas.",
+          "O firmamento e os seres que estejam.",
+          "A vegetação .",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "No terceiro dia , após Deus ter ordenado que a porção seca ( chamada terra) , depois de nomear o ajuntamento de águas de marés, o que mais ele ordenou?",
+        options: [
+          "Que os mares se movessem sobre a terra.",
+          "Que a Terra produzisse relva, e as ervam dessem sementes e as árvores dessem frutos.",
+          "Que as aves fossem criadas, e os anfíbios e répteis também.",
+          "Nenhuma das opções.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Quem foram os animais que Deus abençoou na criação?",
+        options: [
+          "Répteis e gafanhotos.",
+          "Aves , animais marinhos e répteis aquáticos.",
+          "Aves e peixes .",
+          "Deus não abençoou animais.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Quantas vezes em Gênesis 1 está escrito: “ E viu Deus que era bom”?",
+        options: ["3", "6", "7", "Nenhuma vez."],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Sobre o quarto dia da criação responda corretamente, para que servem os luzeiros ou liminares criados por Deus:",
+        options: [
+          "Governar dia e noite, e para servirem de proteção.",
+          "Para direcionar os astros e horóscupo.",
+          "Para governar dia e noite, e servirem de sinais, estações,  dias e anos.",
+          "Para a lua ser cheia de luz por conta do sol que é um astro e não apenas uma estrela.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "No sexto dia da criação Deus ordenou que quem produzisse animais que fossem répteis, domésticos e selvagens.",
+        options: ["O vento", "Ele mesmo", "A Terra", "O espírito"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Em que dia da criação Deus ordenou que as aves voassem abaixo e acima do firmamento dos céus?",
+        options: ["No segundo", "No primeiro", "No quinto", "No último"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Ao final do capítulo 1 relata que Deus ordena algo ao homem e a mulher, o que ele disse :",
+        options: [
+          "Sejam de fundos , se multipliquem e dominem a terra e tudo que nela há, assim como todos os animais.",
+          "Sejam expulsos do jardim",
+          "Dominem apenas os animais que são terrestres.",
+          "Comam de tudo , menos da árvore do conhecimento do bem e do mal.",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "O que Deus deu a Adão e Eva como mantimento?",
+        options: ["trigo", "ervas verdes", "Frutas", "Maçãs"],
+        correctAnswer: 1,
+      },
+    ],
   },
 
   {
-  "id": "genesis2",
-  "title": "Quiz de Gênesis - Capítulo 2",
-  "questions": [
-    {
-      "question": "Por quais motivos o capítulo 2 afirma que ainda não havia brotado erva na terra ?",
-      "options": [
-        "Porque a terras estava infértil e seca.",
-        "Porque ainda não havia chovido e o homem não tinha sido criado para lavrar a terra.",
-        "Porque Adão não teria como lavrar a terra dedido o cuidado com os animais .",
-        "Porque não era tempo de colheita."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "No jardim no Éden tinha um rio que se divida em 4 braços, como eles se chamavam?",
-      "options": [
-        "Nilo, Mesopotâmia, Eufrates Havilá",
-        "Pisom, Nilo, Giom, Eufrates",
-        "Pisom, Giom, Tigre e Eufrates.",
-        "Tigre , Cuxe, Pisom e Nilo."
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "No capítulo 2 Deus fala quais era as funções do homem no jardim, e eram :",
-      "options": [
-        "Colocar ordem no jardim e regar .",
-        "Cultivar e guardar",
-        "Cuidar das árvores e dos rios.",
-        "Para alimentar os animais e peixes ."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "O que era produzido em Havilá?",
-      "options": [
-        "Ouro e Bdélio",
-        "Prata e marfim",
-        "Ônix",
-        "Joias e tesouros"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "question": "Após criar os animais serem criados o que Deus fez ?",
-      "options": [
-        "Os nomeou.",
-        "Levou eles para serem nomeados por Adão.",
-        "Os ordenou a não falarem .",
-        "Deu a cada um uma forma de se comunicar."
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Entre os versículos 15 e 21 Deus expressa uma ordem muito Clara para Adão que foi:",
-      "options": [
-        "Te farei uma auxiliadora, e ela será sua mulher.",
-        "Não comando fruto da árvore da vida .",
-        "Não coma do fruto do conhecimento do bem e do mal.",
-        "Durma que farei para ti uma mulher."
-      ],
-      "correctAnswer": 2
-      }
-    ]
+    id: "genesis2",
+    title: "Quiz de Gênesis - Capítulo 2",
+    questions: [
+      {
+        question:
+          "Por quais motivos o capítulo 2 afirma que ainda não havia brotado erva na terra ?",
+        options: [
+          "Porque a terras estava infértil e seca.",
+          "Porque ainda não havia chovido e o homem não tinha sido criado para lavrar a terra.",
+          "Porque Adão não teria como lavrar a terra dedido o cuidado com os animais .",
+          "Porque não era tempo de colheita.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "No jardim no Éden tinha um rio que se divida em 4 braços, como eles se chamavam?",
+        options: [
+          "Nilo, Mesopotâmia, Eufrates Havilá",
+          "Pisom, Nilo, Giom, Eufrates",
+          "Pisom, Giom, Tigre e Eufrates.",
+          "Tigre , Cuxe, Pisom e Nilo.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "No capítulo 2 Deus fala quais era as funções do homem no jardim, e eram :",
+        options: [
+          "Colocar ordem no jardim e regar .",
+          "Cultivar e guardar",
+          "Cuidar das árvores e dos rios.",
+          "Para alimentar os animais e peixes .",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "O que era produzido em Havilá?",
+        options: [
+          "Ouro e Bdélio",
+          "Prata e marfim",
+          "Ônix",
+          "Joias e tesouros",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question: "Após criar os animais serem criados o que Deus fez ?",
+        options: [
+          "Os nomeou.",
+          "Levou eles para serem nomeados por Adão.",
+          "Os ordenou a não falarem .",
+          "Deu a cada um uma forma de se comunicar.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Entre os versículos 15 e 21 Deus expressa uma ordem muito Clara para Adão que foi:",
+        options: [
+          "Te farei uma auxiliadora, e ela será sua mulher.",
+          "Não comando fruto da árvore da vida .",
+          "Não coma do fruto do conhecimento do bem e do mal.",
+          "Durma que farei para ti uma mulher.",
+        ],
+        correctAnswer: 2,
+      },
+    ],
   },
 
   {
-  "id": "genesiscinco",
-  "title": "Quiz de Gênesis - Capítulo 5",
-  "questions": [
-    {
-      "question": "Qual a possível interpretação para o nome “Caim” conforme o texto?",
-      "options": [
-        "“O Senhor me abençoou com uma criança”",
-        "“Adquiri um varão com o auxílio do Senhor”",
-        "“Homem mortal”",
-        "“O escolhido de Deus”"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "O que Abel ofereceu a Deus como sacrifício?",
-      "options": [
-        "O fruto da terra",
-        "As primícias e a gordura das ovelhas",
-        "Um cordeiro sem defeito",
-        "Incenso e farinha"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Qual foi a reação de Caim após o diálogo com Deus?",
-      "options": [
-        "Arrependeu-se e buscou reconciliação",
-        "Ignorou e afastou-se de sua família",
-        "Chamou Abel ao campo e o matou",
-        "Ofereceu nova oferta para agradar a Deus"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Para onde Caim foi habitar após ser sentenciado por Deus?",
-      "options": [
-        "Em Canaã",
-        "Na terra de Node, ao oriente do Éden",
-        "Na cidade de Babel",
-        "No deserto de Paran"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "Qual dos descendentes de Caim foi o primeiro homem bígamo mencionado?",
-      "options": [
-        "Enoque",
-        "Irade",
-        "Lameque",
-        "Tubalcaim"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "O que marca o nascimento de Enos, neto de Adão?",
-      "options": [
-        "A fundação da primeira cidade",
-        "O início da idolatria",
-        "O começo da invocação do nome do Senhor",
-        "A instituição do sacrifício animal"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Quando Deus questiona Caim sobre seu semblante decaído e sua fúria, que doutrina teológica importante está implícita na advertência divina: “o pecado jaz à porta”?",
-      "options": [
-        "O determinismo divino sobre o comportamento humano",
-        "A inevitabilidade do pecado",
-        "A responsabilidade humana frente às tentações",
-        "A impossibilidade de resistir ao mal sem intervenção divina direta"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "question": "Qual elemento do juízo divino sobre Caim reflete um princípio de graça e proteção mesmo após o pecado?",
-      "options": [
-        "Deus permite que Caim construa uma cidade para seus descendentes",
-        "O sinal posto em Caim para que ninguém o matasse",
-        "A permissão de Caim oferecer uma nova oferta",
-        "A promessa de que o solo voltaria a frutificar após sete gerações"
-      ],
-      "correctAnswer": 1
-    },
-    {
-      "question": "No relato dos descendentes de Caim, que aspecto cultural relevante é apresentado pela genealogia, evidenciando o avanço da humanidade?",
-      "options": [
-        "O surgimento das primeiras profissões especializadas",
-        "A institucionalização da religião forma",
-        "A criação de leis civis para regular a vingança",
-        "A introdução da agricultura sistemática"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "question": "A fala de Lameque sobre matar dois homens e sua referência à vingança “setenta vezes sete” indica principalmente:",
-      "options": [
-        "A perpetuação da violência como solução de conflitos",
-        "O surgimento da legítima defesa no pensamento humano",
-        "A condenação moral de seus atos por parte de Deus",
-        "A reverência à memória de Caim como herói familiar"
-      ],
-      "correctAnswer": 0
-    },
-    {
-      "question": "O nascimento de Sete, após a morte de Abel, é teologicamente interpretado como:",
-      "options": [
-        "Um substituto simbólico para a linhagem piedosa interrompida",
-        "A redenção final de Caim",
-        "O início da maldição sobre toda a terra",
-        "Um momento de alegria após a perda de um filho amado."
-      ],
-      "correctAnswer": 0
-    }
-  ]
-}
-
+    id: "genesiscinco",
+    title: "Quiz de Gênesis - Capítulo 5",
+    questions: [
+      {
+        question:
+          "Qual a possível interpretação para o nome “Caim” conforme o texto?",
+        options: [
+          "“O Senhor me abençoou com uma criança”",
+          "“Adquiri um varão com o auxílio do Senhor”",
+          "“Homem mortal”",
+          "“O escolhido de Deus”",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "O que Abel ofereceu a Deus como sacrifício?",
+        options: [
+          "O fruto da terra",
+          "As primícias e a gordura das ovelhas",
+          "Um cordeiro sem defeito",
+          "Incenso e farinha",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Qual foi a reação de Caim após o diálogo com Deus?",
+        options: [
+          "Arrependeu-se e buscou reconciliação",
+          "Ignorou e afastou-se de sua família",
+          "Chamou Abel ao campo e o matou",
+          "Ofereceu nova oferta para agradar a Deus",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Para onde Caim foi habitar após ser sentenciado por Deus?",
+        options: [
+          "Em Canaã",
+          "Na terra de Node, ao oriente do Éden",
+          "Na cidade de Babel",
+          "No deserto de Paran",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Qual dos descendentes de Caim foi o primeiro homem bígamo mencionado?",
+        options: ["Enoque", "Irade", "Lameque", "Tubalcaim"],
+        correctAnswer: 2,
+      },
+      {
+        question: "O que marca o nascimento de Enos, neto de Adão?",
+        options: [
+          "A fundação da primeira cidade",
+          "O início da idolatria",
+          "O começo da invocação do nome do Senhor",
+          "A instituição do sacrifício animal",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Quando Deus questiona Caim sobre seu semblante decaído e sua fúria, que doutrina teológica importante está implícita na advertência divina: “o pecado jaz à porta”?",
+        options: [
+          "O determinismo divino sobre o comportamento humano",
+          "A inevitabilidade do pecado",
+          "A responsabilidade humana frente às tentações",
+          "A impossibilidade de resistir ao mal sem intervenção divina direta",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Qual elemento do juízo divino sobre Caim reflete um princípio de graça e proteção mesmo após o pecado?",
+        options: [
+          "Deus permite que Caim construa uma cidade para seus descendentes",
+          "O sinal posto em Caim para que ninguém o matasse",
+          "A permissão de Caim oferecer uma nova oferta",
+          "A promessa de que o solo voltaria a frutificar após sete gerações",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "No relato dos descendentes de Caim, que aspecto cultural relevante é apresentado pela genealogia, evidenciando o avanço da humanidade?",
+        options: [
+          "O surgimento das primeiras profissões especializadas",
+          "A institucionalização da religião forma",
+          "A criação de leis civis para regular a vingança",
+          "A introdução da agricultura sistemática",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "A fala de Lameque sobre matar dois homens e sua referência à vingança “setenta vezes sete” indica principalmente:",
+        options: [
+          "A perpetuação da violência como solução de conflitos",
+          "O surgimento da legítima defesa no pensamento humano",
+          "A condenação moral de seus atos por parte de Deus",
+          "A reverência à memória de Caim como herói familiar",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "O nascimento de Sete, após a morte de Abel, é teologicamente interpretado como:",
+        options: [
+          "Um substituto simbólico para a linhagem piedosa interrompida",
+          "A redenção final de Caim",
+          "O início da maldição sobre toda a terra",
+          "Um momento de alegria após a perda de um filho amado.",
+        ],
+        correctAnswer: 0,
+      },
+    ],
+  },
 ];
