@@ -4,6 +4,7 @@ import Donate from "./sessions/Donate";
 import Motto from "./sessions/Motto";
 import TeamTheme from "./sessions/TeamTheme";
 import TopBar from "./components/TopBar";
+import Footer from "./sessions/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Motto />
       <Donate />
       <TeamTheme />
+      <Footer />
     </main>
   );
 }

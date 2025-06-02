@@ -148,8 +148,8 @@ export default function Presentation() {
 
               <div className="mt-auto">
                 <p className="text-xs text-white/60">
-                  © {new Date().getFullYear()} Bereshit. Todos os direitos
-                  reservados.
+                  © {new Date().getFullYear()} Equipe Bereshit. Todos os
+                  direitos reservados.
                 </p>
               </div>
             </motion.aside>
