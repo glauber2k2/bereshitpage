@@ -189,6 +189,114 @@ export const quizzes = [
   },
 
   {
+  "id": "genesistres",
+  "title": "Quiz de Gênesis - Capítulo 3",
+  "questions": [
+    {
+      "question": "Qual foi a estratégia da serpente para enganar a mulher?",
+      "options": [
+        "Disse que Deus a amava e jamais a puniria",
+        "Afundou a árvore no rio e a chamou de sagrada",
+        "Fez uma pergunta distorcida, sugerindo que Deus proibiu todos os frutos",
+        "Falou que os animais também comiam do fruto sem punição"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Segundo a mulher, o que aconteceria se ela tocasse no fruto proibido?",
+      "options": [
+        "Ela seria expulsa do jardim imediatamente",
+        "Ela certamente morreria",
+        "Ela se tornaria invisível",
+        "Nada, desde que não comesse"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "O que a serpente promete à mulher ao comer o fruto?",
+      "options": [
+        "Que ela seria como Deus, conhecendo o bem e o mal",
+        "Que teria filhos imortais",
+        "Que nunca mais teria que trabalhar",
+        "Que se tornaria rainha do Éden"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Qual foi a primeira reação de Adão e Eva após comerem do fruto?",
+      "options": [
+        "Começaram a chorar pedindo perdão",
+        "Perceberam que estavam nus e costuraram folhas para se cobrirem",
+        "Fugiram do jardim imediatamente",
+        "Fizeram um altar para oferecer o fruto a Deus"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quando Deus pergunta “Onde estás?” qual é a justificativa de Adão?",
+      "options": [
+        "Disse que estava admirando a natureza",
+        "Disse que estava caçando",
+        "Disse que estava nu e teve medo",
+        "Disse que a serpente o havia mandado fugir"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qual foi a reação de Adão ao ser confrontado por Deus?",
+      "options": [
+        "Arrependeu-se imediatamente",
+        "Ficou em silêncio e chorou",
+        "Culpou a mulher que Deus lhe deu",
+        "Disse que comeu o fruto por acidente"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qual destas consequências foi dada à mulher?",
+      "options": [
+        "Seria expulsa sozinha do Éden",
+        "Teria de plantar seus próprios alimentos",
+        "Teria dores multiplicadas no parto",
+        "Seria obrigada a cuidar da serpente"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que responsabilidade Deus dá ao homem após o pecado?",
+      "options": [
+        "Proteger o Éden dos animais selvagens",
+        "Sustentar-se com o próprio trabalho até voltar ao pó",
+        "Cuidar da serpente como castigo",
+        "Construir um templo fora do jardim"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "O que Deus faz para impedir o acesso à árvore da vida?",
+      "options": [
+        "Derruba a árvore e destrói suas raízes",
+        "Coloca Eva de guarda no jardim",
+        "Coloca querubins e uma espada flamejante para guardar o caminho",
+        "Transforma a árvore em pedra."
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que tipo de vestimenta Deus dá a Adão e Eva?",
+      "options": [
+        "Túnicas feitas de folhas sagradas",
+        "Capas de pele de figueira",
+        "Vestes feitas de pele de animais",
+        "Tecidos trazidos por querubins"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
+
+
+  {
     id: "genesisquatro",
     title: "Quiz de Gênesis - Capítulo 4",
     questions: [
