@@ -414,4 +414,112 @@ export const quizzes = [
       },
     ],
   },
+
+  {
+  "id": "genesisseis",
+  "title": "Quiz de Gênesis - Capítulo 6",
+  "questions": [
+    {
+      "question": "O que Deus falou sobre o espírito do homem?",
+      "options": [
+        "Ele viveria para sempre no homem",
+        "Ele não agiria para sempre, pois o homem é carnal",
+        "Ele não existia no homem",
+        "Ele se tornaria imortal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quantos anos Deus determinou que seria o limite da vida do homem?",
+      "options": [
+        "100 anos",
+        "120 anos",
+        "150 anos",
+        "200 anos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quem eram os gigantes mencionados?",
+      "options": [
+        "Seres mitológicos inventados",
+        "Filhos de Deus que se relacionaram com as filhas dos homens, gerando valentes varões de renome",
+        "Os filhos de Noé",
+        "Anjos caídos que desceram à Terra"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Por que o termo “arrependeu-se” é usado para Deus?",
+      "options": [
+        "Porque Deus errou e ficou triste",
+        "Para expressar que Deus se entristeceu, usando antropomorfismo",
+        "Porque Deus não sabia o que aconteceria",
+        "Porque Deus mudou de ideia"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual a principal característica de Noé que chamou a atenção de Deus?",
+      "options": [
+        "Ele era rico e famoso",
+        "Ele era justo e íntegro, e andava com Deus",
+        "Ele era um guerreiro valente",
+        "Ele sabia construir barcos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quais filhos de Noé são citados?",
+      "options": [
+        "Abel, Caim e Sete",
+        "Sem, Cam e Jafé",
+        "Enoque, Matusalém e Lameque",
+        "Adão, Noé e Abraão"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "De que material era feita a arca?",
+      "options": [
+        "Carvalho e barro",
+        "Cipreste e betume",
+        "Cedro e argila",
+        "Pinheiro e cera"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quantos côvados tinha a arca de comprimento?",
+      "options": [
+        "100 côvados",
+        "300 côvados",
+        "50 côvados",
+        "30 côvados"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qual era o propósito do betume na construção da arca?",
+      "options": [
+        "Decorar a madeira",
+        "Selar as tábuas para impedir a entrada de água",
+        "Tornar a arca mais pesada",
+        "Usar como combustível"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quem entraria na arca conforme a ordem de Deus?",
+      "options": [
+        "Noé e sua família, dois animais de cada espécie e alimentos para todos",
+        "Apenas Noé e seus filhos",
+        "Somente os animais",
+        "Apenas Noé e sua esposa"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
+
 ];
