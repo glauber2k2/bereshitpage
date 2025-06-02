@@ -189,8 +189,8 @@ export const quizzes = [
   },
 
   {
-    id: "genesiscinco",
-    title: "Quiz de Gênesis - Capítulo 5",
+    id: "genesisquatro",
+    title: "Quiz de Gênesis - Capítulo 4",
     questions: [
       {
         question:
