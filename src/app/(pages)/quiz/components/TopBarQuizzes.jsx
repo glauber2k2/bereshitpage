@@ -19,7 +19,10 @@ export default function QuizTopBar() {
           className="w-6 object-scale-down animate-glitchEvery30s"
         />
       </button>
-      <h1>Bereshit Quiz</h1>
+      <h1>Quiz Bereshit</h1>
+      <a href="/" className="ml-auto text-xs font-normal">
+        Home
+      </a>
     </div>
   );
 }

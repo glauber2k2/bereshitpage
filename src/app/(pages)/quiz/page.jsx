@@ -10,7 +10,7 @@ export default function QuizHome() {
       <h1 className="text-2xl font-bold mb-4 text-turquoise-400">
         Escolha um Quiz:
       </h1>
-      <ul className="flex flex-col gap-4">
+      <ul className="flex flex-col gap-4 overflow-y-auto">
         {quizzes.map((quiz) => (
           <li key={quiz.id}>
             <Link
