@@ -77,6 +77,9 @@ export default function Presentation() {
             >
               Nosso culto
             </button>
+            <a className="hover:text-turquoise-400 transition-all" href="/quiz">
+              Nosso quiz
+            </a>
           </nav>
         ) : (
           <button onClick={toggleMenu}>
@@ -144,6 +147,12 @@ export default function Presentation() {
                 >
                   Nosso culto
                 </button>
+                <a
+                  className="hover:text-turquoise-400 transition-all text-left"
+                  href="/quiz"
+                >
+                  Nosso Quiz
+                </a>
               </nav>
 
               <div className="mt-auto">
