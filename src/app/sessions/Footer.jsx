@@ -8,7 +8,11 @@ export default function Footer() {
         Bereshit bara Elohim et ha-shamayim ve&#39;et ha-arets
       </p>
 
-      <a className="text-white/70 mt-10 flex items-center gap-2">
+      <a
+        className="text-white/70 mt-10 flex items-center gap-2"
+        href="https://instagram.com/bereshit_equipe"
+        target="blank"
+      >
         <Instagram size={16} />
         Instagram
       </a>
