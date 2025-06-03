@@ -1,5 +1,3 @@
-// src/data/quizzes.js
-
 export const quizzes = [
   {
     id: "genesisum",
