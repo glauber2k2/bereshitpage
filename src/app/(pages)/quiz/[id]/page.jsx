@@ -268,9 +268,9 @@ export default function QuizRunner({ params }) {
             <p style={{ fontSize: "24px", margin: "8px 0 0 0" }}>
               Mencione @bereshit_equipe no instagram!
             </p>
-            {/* Placeholder for logo if path is relative to public folder */}
+
             <img
-              src="/assets/logo.png" // Ensure this path is correct from the public folder
+              src="/assets/logo.png"
               alt="Logo Bereshit"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
@@ -291,7 +291,7 @@ export default function QuizRunner({ params }) {
       {/* Visible Quiz UI */}
       <div className="h-full flex flex-col bg-zinc-950 p-4 sm:p-8 text-white items-center ">
         <div className="w-full max-w-2xl">
-          {quiz && ( // Ensure quiz is loaded before trying to access its properties
+          {quiz && (
             <h1 className="text-xl sm:text-3xl font-semibold text-turquoise-400 text-center">
               {quiz.title}
             </h1>
@@ -313,7 +313,7 @@ export default function QuizRunner({ params }) {
 
               <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center">
                 <button
-                  onClick={() => router.push("/quiz")} // Assuming "/quiz" is your selection page
+                  onClick={() => router.push("/quiz")}
                   className="bg-turquoise-600 hover:bg-turquoise-700 font-bold text-white px-6 py-3 rounded-lg shadow-md transition-colors duration-150"
                 >
                   Voltar para seleção
@@ -327,7 +327,7 @@ export default function QuizRunner({ params }) {
                 </button>
               </div>
             </div>
-          ) : quiz && question ? ( // Ensure quiz and question are loaded
+          ) : quiz && question ? (
             <div className="rounded-lg shadow-xl">
               <h2 className="text-base sm:text-lg mb-4 text-zinc-100 p-2">
                 <span className="text-2xl sm:text-3xl font-bold text-turquoise-400">
@@ -337,7 +337,7 @@ export default function QuizRunner({ params }) {
               </h2>
               <ul className="mb-6 space-y-3">
                 {question.options.map((opt, index) => {
-                  let buttonClass = "bg-zinc-800 hover:bg-zinc-700"; // Default option style
+                  let buttonClass = "bg-zinc-800 hover:bg-zinc-700";
                   let icon = null;
 
                   if (showFeedback) {
@@ -346,14 +346,14 @@ export default function QuizRunner({ params }) {
 
                     if (isCorrectAnswer) {
                       buttonClass =
-                        "bg-green-500 hover:bg-green-600 text-white"; // Correct answer
+                        "bg-green-500 hover:bg-green-600 text-white";
                       if (isSelectedAnswer) {
                         icon = (
                           <CheckCircle2
                             size={20}
                             className="mr-2 flex-shrink-0"
                           />
-                        ); // User picked correct
+                        );
                       }
                     } else if (isSelectedAnswer) {
                       buttonClass = "bg-red-500 hover:bg-red-600 text-white"; // User picked incorrect
