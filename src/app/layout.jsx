@@ -69,6 +69,9 @@ export const metadata = {
   },
   // manifest: "/site.webmanifest", // TODO": para pwa
   // themeColor: "#FFFFFF",
+  alternates: {
+    canonical: SITE_URL,
+  },
 };
 
 export default function RootLayout({ children }) {
