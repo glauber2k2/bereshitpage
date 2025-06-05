@@ -53,6 +53,9 @@ export const metadata = {
     ],
     locale: "pt_BR",
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
 
   robots: {
     index: true,
