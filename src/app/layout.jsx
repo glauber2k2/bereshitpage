@@ -22,7 +22,8 @@ export const metadata = {
   applicationName: SITE_NAME,
   authors: [{ name: "Equipe Bereshit", url: SITE_URL }],
   keywords: [
-    "Bereshit",
+    "bereshit",
+    "equipe bereshit",
     "missão",
     "Igaracy",
     "evangelismo",
@@ -51,9 +52,6 @@ export const metadata = {
       },
     ],
     locale: "pt_BR",
-  },
-  icons: {
-    icon: "/favicon.ico",
   },
 
   robots: {
