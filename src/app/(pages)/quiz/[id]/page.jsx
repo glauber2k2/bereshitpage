@@ -4,53 +4,7 @@
 import { quizzes } from "@/data/quizzes"; // Assuming this path is correct for your project
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Send, CheckCircle2, XCircle } from "lucide-react"; // Added CheckCircle2 and XCircle
-
-// Mock quizzes data if not provided externally for standalone testing
-const mockQuizzes = [
-  {
-    id: "1",
-    title: "General Knowledge Quiz",
-    questions: [
-      {
-        question: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris", "Rome"],
-        correctAnswer: 2,
-      },
-      {
-        question: "Which planet is known as the Red Planet?",
-        options: ["Earth", "Mars", "Jupiter", "Venus"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the largest ocean on Earth?",
-        options: [
-          "Atlantic Ocean",
-          "Indian Ocean",
-          "Arctic Ocean",
-          "Pacific Ocean",
-        ],
-        correctAnswer: 3,
-      },
-    ],
-  },
-  {
-    id: "2",
-    title: "Science Quiz",
-    questions: [
-      {
-        question: "What is H2O?",
-        options: ["Oxygen", "Water", "Hydrogen", "Helium"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What force pulls objects towards each other?",
-        options: ["Magnetism", "Friction", "Gravity", "Tension"],
-        correctAnswer: 2,
-      },
-    ],
-  },
-];
+import { Send, CheckCircle2, XCircle } from "lucide-react";
 
 export default function QuizRunner({ params }) {
   const router = useRouter();

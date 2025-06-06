@@ -1,7 +1,5 @@
-// app/quiz/page.jsx
-"use client";
-
 import { quizzes } from "@/data/quizzes";
+import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 
 export default function QuizHome() {
@@ -10,7 +8,7 @@ export default function QuizHome() {
       <h1 className="text-2xl font-bold mb-4 text-turquoise-400">
         Escolha um Quiz:
       </h1>
-      <ul className="flex flex-col gap-4 overflow-y-auto">
+      <ul className="flex flex-col gap-4 overflow-y-auto h-2/3">
         {quizzes.map((quiz) => (
           <li key={quiz.id}>
             <Link
@@ -22,6 +20,11 @@ export default function QuizHome() {
           </li>
         ))}
       </ul>
+
+      <ChevronDown
+        size={22}
+        className="animate-bounce text-white self-center mt-10"
+      />
     </div>
   );
 }

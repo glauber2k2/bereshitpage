@@ -7,7 +7,7 @@ const montserrat = Montserrat({
 });
 
 const SITE_URL = "https://equipebereshit.com.br";
-const SITE_NAME = "Equipe Bereshit";
+const SITE_NAME = "Bereshit";
 const DEFAULT_TITLE = "Bereshit: Evangelismo e Ação Social";
 const DEFAULT_DESCRIPTION =
   "Participe da Missão Bereshit em Igaracy! Ajude-nos a levar a Palavra de Deus, arrecadar alimentos e fundos para transformar vidas na cidade.";
@@ -16,7 +16,7 @@ const OG_IMAGE_URL = `${SITE_URL}/og-image-bereshit-igaracy.jpg`;
 export const metadata = {
   title: {
     default: DEFAULT_TITLE,
-    template: `%s | ${SITE_NAME}`,
+    template: `${SITE_NAME}: %s`,
   },
   description: DEFAULT_DESCRIPTION,
   applicationName: SITE_NAME,
