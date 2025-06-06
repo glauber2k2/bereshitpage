@@ -158,7 +158,6 @@ export const quizzes = [
       },
     ],
   },
-  /*
   {
     id: "genesistres",
     title: "Quiz de Gênesis - Capítulo 3",
@@ -175,10 +174,10 @@ export const quizzes = [
       },
       {
         question:
-          "Segundo a mulher, o que aconteceria se ela tocasse no fruto proibido?",
+          "Segundo a mulher, o que aconteceria se ela tocasse ou comesse o fruto do conhecimento do bem e do mal ?",
         options: [
           "Ela seria expulsa do jardim imediatamente",
-          "Ela certamente morreria",
+          "Ela certamente morreria.",
           "Ela se tornaria invisível",
           "Nada, desde que não comesse",
         ],
@@ -389,11 +388,82 @@ export const quizzes = [
   },
 
   {
+    id: "genesiscinco",
+    title: "Quiz de Gênesis - Capítulo 5",
+    questions: [
+      {
+        question: "Neste capítulo vemos a genealogia de quem ?",
+        options: [
+          "Caim",
+          "Adão",
+          "Noé",
+          "De ninguém, pois este não é um capítulo de genealogia.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Qual o nome do neto de Adão ?",
+        options: ["Abel", "Sete", "Enos", "Maalalel"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Quantos anos tinha Enoque ao gerar Matusalém?",
+        options: ["45", "123", "89", "65"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "“ Ele nos consolará dos nosso trabalhos e das fadigas de nossas mãos , nesta terra que o Senhor no amaldiçoou”,  quem esse texto está se referindo ?",
+        options: ["Adão", "Enoque", "Noé", "Jarede"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Na genealogia de Adão quem foi o homem que teve menos tempo de vida , e o que teve mais tempo de vida ?",
+        options: [
+          "Maalalel e Matusalém",
+          "Enos e Matusalém",
+          "Enoque e Matusalém",
+          "Sete e Matusalém",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Quantos homens são citados no capítulo 5?",
+        options: ["10", "11", "8", "13"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "O bisavô de Noé tinha uma característica específica , qual era ?",
+        options: [
+          "Ele era sacerdote .",
+          "Ele morreu muito Velho .",
+          "Ele andava com Deus .",
+          "Ele morreu com 100 anos .",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Com quantos anos Matusalém teve Lameque ?",
+        options: ["102", "182", "77", "489"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Como se chamava o filho de Maalalel?",
+        options: ["Enoque", "Canaã", "Jarede", "Noé"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+
+  {
     id: "genesisseis",
     title: "Quiz de Gênesis - Capítulo 6",
     questions: [
       {
-        question: "O que Deus falou sobre o espírito do homem?",
+        question:
+          "O que Deus falou sobre o agir do espírito em relação ao homem?",
         options: [
           "Ele viveria para sempre no homem",
           "Ele não agiria para sempre, pois o homem é carnal",
@@ -485,5 +555,387 @@ export const quizzes = [
         correctAnswer: 0,
       },
     ],
-  },*/
+  },
+
+  {
+    id: "genesissete",
+    title: "Quiz de Gênesis - Capítulo 7",
+    questions: [
+      {
+        question:
+          "Deus ordenou que quantos pares de animais limpos entrassem na arca ?",
+        options: ["5 pares", "2 pares", "7 pares", "12 pares"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "A bíblia não especifica em Gênesis 7 quais eram os animais limpos ou sujos, mas em outros livros como em Levítico, Deus os especifica. De acordo com sua pesquisas, assinale abaixo o único animal que é impuro.",
+        options: ["Boi", "Ovelha", "Peixes com barbatanas", "Porco"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "Assinale corretamente o dia, o mês e o ano em quem a Bíblia expressa que houve o início do dilúvio:",
+        options: [
+          "Quinto dia do sexto mês do ano 502.",
+          "O décimo sétimo dia do segundo mês do ano 600.",
+          "O vigésimo sétimo dia do segundo mês do ano 601.",
+          "O primeiro dia do décimo mês do ano 600.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Quem fechou a parta da arca?",
+        options: ["Adão", "Noé", "A força dos ventos", "Deus"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "De acordo com a Bíblia, devido as chuvas de 40 dias e 40 noites a águas cobriram os montes, cobriam quantos côvados.",
+        options: ["10 côvados", "120 côvados", "15 côvados", "25 côvados."],
+        correctAnswer: 2,
+      },
+      {
+        question: "Durante quantos dias houve agi sobre a terra ?",
+        options: ["150", "130", "250", "120"],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "De acordo com pesquisas, a medida de uma côvado é de aproximadamente 45 a 50 centímetros, tendo em vista que correspondia ao antebraço, do cotovelo até a ponta do dedo médio, quais eram todas as medidas da arca ?",
+        options: [
+          "30 côvados de comprimento , 50 de altura e 10 de largura.",
+          "300 côvados de compromimento, 50 de largura e 30 de altura.",
+          "25 côvados de todas as partes da arca.",
+          "No texto Deus não especifica as medidas.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Assinale a opção que corresponde a dilúvio em hebráico?",
+        options: [
+          "Sebul- muitas águas e enchentes",
+          "Mebal - fortes águas e ventos.",
+          "Mabel - águas em excesso",
+          "Mabul- inundação, enchente",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        question: "De acordo com Gênesis 7 como o dilúvio começou?",
+        options: [
+          "Com Deus falando audivelmente para chover.",
+          "Quando romperam as fontes do grande abismo e as comportas dos céus abriram.",
+          "Quando o céu escureceu .",
+          "A Bíblia não relata como, apenas diz que choveu 40 dias e 40 noites.",
+        ],
+        correctAnswer: 1,
+      },
+    ],
+  },
+
+  {
+    id: "genesisoito",
+    title: "Quiz de Gênesis - Capítulo 8",
+    questions: [
+      {
+        question:
+          "Gênesis 8 inicia com a expressão : “ Lembrou -se Deus de Noé”, porém bem sabemos que Deus de nada se esquece, porque essa expressão foi utilizada no texto?",
+        options: [
+          "Para fazer o texto se tornar mais poético.",
+          "Porque quando a Bíblia usa o termo “ Deus lembrou- se “ em relação a algo ou alguém, é para deixar claro que Deus decidiu agir em relação a tal situação.",
+          "Porque quando Deus quando a palavra diz que Deus lembrou- se de algo ou alguém, é porque por um tempo ele esqueceu dessa situação, assim como quando lança nossos pecados no mar do esquecimento.",
+          "Nenhuma das alternativas",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Em que tempo começaram a aparecer os cumes dos montes?",
+        options: [
+          "Do primeiro dia do quarto mês do ano 600.",
+          "No primeiro dia do sétimo mês do ano 600.",
+          "No primeiro dia do décimo mês do ano 600.",
+          "No décimo dia do décimo mês do ano 600.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "No 17• dia do sétimo mês , a arca repousou sobre os montes de que lugar ?",
+        options: ["Arteres", "Pisom", "Havilá", "Ararate"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "De acordo com o capítulo estudado, após os cumes dos montes irem aparecendo, ao cabo de 40 dias o que fez Noé?",
+        options: [
+          "Soltou um corvo",
+          "Soltou uma pomba",
+          "Abriu a janela da arca",
+          "Esperou Deus falar com ele para sair da arca.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Qual o primeiro animal que Noé soltou e o que ele fez ?",
+        options: [
+          "Uma pomba, mas ela voltou por não ter achado lugar para ficar.",
+          "Um corvo que ficou indo e voltando até que as águas secassem.",
+          "Um corvo que não encontrando lugar para pousar voltou a arca e saiu após 7 dias.",
+          "Uma águia.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Por duas vezes Noé precisou esperar 7 dias para soltar a pomba da arca, quais foram as situações e que isto aconteceu?",
+        options: [
+          "Quando ela foi e ficou voltando assim como o corvo.",
+          "Quando ela voltou com uma figueira .",
+          "Quando ela não achou lugar para pousar,e quando voltou com a Oliveira.",
+          "Quando ela achou lugar para pousar e voltou com a fogueira.",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Após a Terra está absolutely seca( no vigésimo sétimo dia do segundo mês, do ano 601), Noé ao sair da arca com seus filhos, esposa, noras e animais, ofereceu um sacrifício a Deus, então a Bíblia diz que Deus pensou algo consigo, o que foi?",
+        options: [
+          "Nunca mais farei ter dilúvios sobre a terra.",
+          "Nunca mais amaldiçoarei a terra por causa do homem, nem tornarei a ferir todo vivente.",
+          "Irei fazer um arco - íris para promover minha aliança.",
+          "Nunca mais matarei os seres humanos",
+        ],
+        correctAnswer: 1,
+      },
+    ],
+  },
+
+  {
+    id: "genesisnove",
+    title: "Quiz de Gênesis - Capítulo 9",
+    questions: [
+      {
+        question:
+          "Quantas vezes no capítulo 9 Deus diz a Noé e seus filhos: “Sede fecundos, multiplicai-vos” ?",
+        options: [
+          "Uma vez ( no versículo 1)",
+          "5 vezes ( nos versículo 3, 5, 8 , 9 e 24)",
+          "Três vezes ( nos verso 8, 16 e 30)",
+          "Duas vezes ( nos versículos 1 ,7)",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        question: "Os animais teriam pavor e medo de quem ?",
+        options: [
+          "De Deus",
+          "Das trevas",
+          "De Noé e seus filhos",
+          "Dos gigantes",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Para Deus o que foi considerado carne com vida.",
+        options: [
+          "Carne de boi.",
+          "Carne de animais puros.",
+          "Carne de pessoas .",
+          "Carne com sangue.",
+        ],
+        correctAnswer: 3,
+      },
+      {
+        question: "“ Se alguém derramar o sangue do homem”",
+        options: [
+          "Será perdoado caso se arrependa",
+          "Pelo homem será derramado o seu sangue",
+          "Viverá em Node assim como Caim.",
+          "Será infértil.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Deus fez uma aliança com Noé e seus filhos e consequentemente com a descendência deles, o que ele disse que seria usado como “ símbolo de sua aliança “?",
+        options: [
+          "Quando verem minhas estrelas saberão que não voltarei a destruir toda a carne com águas.",
+          "Quando o sol o aparecer saberão que nunca mais voltarei a matar todos os seres viventes.",
+          "Quando eu trouxer nuvens sobre a terra e belas aparecer o meu arco lembrarei da minha aliança de não mais permitir que o dilúvio destrua toda carne.",
+          "Quando o arco íris brilhar no céu saberão que eu nunca mais ferirei homem algum na terra .",
+        ],
+        correctAnswer: 2,
+      },
+      {
+        question: "Qual o nome do pai de Canaã?",
+        options: ["Jafé", "Sem", "Tubal", "Cam"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Em qual profissão Noé era especialista?",
+        options: [
+          "Lavrar a terra",
+          "Pesca",
+          "Carpintaria",
+          "A Bíblia não relata",
+        ],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "Qual o nome do filho de Noé que o viu nu em sua tenda por estar Noé embriagado, mas que não o cobriu?",
+        options: ["Sem", "Cam", "Jafé", "Os três filhos"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Quem foi amaldiçoado devido o erro de Cam ?",
+        options: ["Seus irmãos", "Ele mesmo", "Sua esposa", "Seu filho"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Quantos anos após o dilúvio viveu Noé ?",
+        options: ["450", "120", "350", "500"],
+        correctAnswer: 2,
+      },
+    ],
+  },
+
+  {
+    id: "genesisdez",
+    title: "Quiz de Gênesis - Capítulo 10",
+    questions: [
+      {
+        question: "Qual desses não é filho de Jafé ?",
+        options: ["Magoque", "Javã", "Asquenaz", "Tiras"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Qual o nome do bisneto de Noé que edificou Nínive e era um valente caçador diante do Senhor?",
+        options: ["Cuxe", "Ninrode", "Havilá", "Raamá"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Qual o nome do filho de Cam que foi amaldiçoado por Noé?",
+        options: ["Pute", "Cuxe", "Miezraim", "Canaá"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Quantos filhos teve Javã, o neto de Noé ?",
+        options: ["2", "6", "4", "12"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Sebá e Dedã , eram filhos de :",
+        options: ["Cuxe", "Raamá", "Havilá", "Ludim"],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Ludim, Ananim,Leabim, Naftuim, Patrusim, Casluim e Caftorim, foram filhos de:",
+        options: ["Mizraim", "Sidom", "Dedã", "Pute"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Qual cidade ficava entre Nínive e Calá?",
+        options: ["Sinar", "Ereque", "Acada", "Resém"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "Os Jebuseus, Amorreus, Girgaseus, Heveus, Sineus, Arvadeus, Zamureus, Hamateus e Cananeus, surgiram através de :",
+        options: ["Noé", "Canaã", "Caftorim", "Mizraim"],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Em Gênesis 10:21 afirma que Sem foi pai de todos os filhos de :",
+        options: ["Ofir", "Meseque", "Héber", "Assur"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Qual o nomes dos dois filhos de Héber :",
+        options: [
+          "Pelebe e Joã",
+          "Jobabe e Eros",
+          "Hadorão e Magogue",
+          "Pelegue e Joctã",
+        ],
+        correctAnswer: 3,
+      },
+    ],
+  },
+
+  {
+    id: "genesisonze",
+    title: "Quiz de Gênesis - Capítulo 11",
+    questions: [
+      {
+        question:
+          "Gênesis 11 inicia narrando que os os viajantes que partiram do Oriente , acharam uma terra boa para habitar, como ela se chamava ?",
+        options: ["Sinar", "Hebron", "Canaã", "Harã"],
+        correctAnswer: 0,
+      },
+      {
+        question:
+          "Os tijolos que foram feitos serviam de pedra, betume e argamassa, além disso serviu para que os moradores de Sinar , desejassem construir :",
+        options: [
+          "Uma pirâmide",
+          "Uma cidade e uma torre",
+          "Uma torre chamada Babel",
+          "Uma cidade chamada Babel",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Qual era a intenção do povo ao querer construir a torre?",
+        options: [
+          "Terem um monumento para turismo.",
+          "Fazerem seu nome grande e não serem espalhados na terra.",
+          "Encontrar-se com Deus",
+          "Levantarem um altar de adoração para Deus na torre.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question:
+          "Quando Deus diz : “ Desçamos confundamos ali a linguagem”, essa expressão no plural , revela que :",
+        options: [
+          "A soberania de Deus é tamanha a ponto dele falar por si e por outras pessoas.",
+          "Porque assim como em Gênesis 1 quando ele diz : Façamos o homem “nossa “ imagem e semelhança, o Deus Pai, torna notória a trindade.",
+          "Porque ele está falando consigo e com os anjos, querubins e serafins .",
+          "Não tem resposta para essa pergunta.",
+        ],
+        correctAnswer: 1,
+      },
+      {
+        question: "Sem gerou :",
+        options: ["Cam", "Salá", "Arfaxade", "Héber"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Com quem idade Pelegue gerou Reú?",
+        options: ["27 anos", "35 anos", "67 anos", "30 anos"],
+        correctAnswer: 3,
+      },
+      {
+        question:
+          "Tera gerou 3 filhos, qual dos nomes abaixo não pertence a nenhum de seus filhos?",
+        options: ["Abrão", "Naor", "Ló", "Harã"],
+        correctAnswer: 2,
+      },
+      {
+        question:
+          "Em Gênesis aprece 3 vezes um nome que se dirige a duas pessoas diferentes e até a um lugar , que nome é esse ?",
+        options: ["Serugue", "Salá", "Terá", "Harã"],
+        correctAnswer: 3,
+      },
+      {
+        question: "Quem Naor tomou por esposa ?",
+        options: ["Mical", "Milca", "Lira", "Pisam"],
+        correctAnswer: 1,
+      },
+    ],
+  },
 ];
