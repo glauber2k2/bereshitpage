@@ -585,7 +585,7 @@ export const quizzes = [
         correctAnswer: 1,
       },
       {
-        question: "Quem fechou a parta da arca?",
+        question: "Quem fechou a porta da arca?",
         options: ["Adão", "Noé", "A força dos ventos", "Deus"],
         correctAnswer: 3,
       },
@@ -596,7 +596,7 @@ export const quizzes = [
         correctAnswer: 2,
       },
       {
-        question: "Durante quantos dias houve agi sobre a terra ?",
+        question: "Durante quantos dias houve agir sobre a terra ?",
         options: ["150", "130", "250", "120"],
         correctAnswer: 0,
       },
@@ -818,7 +818,7 @@ export const quizzes = [
       },
       {
         question: "Qual o nome do filho de Cam que foi amaldiçoado por Noé?",
-        options: ["Pute", "Cuxe", "Miezraim", "Canaá"],
+        options: ["Pute", "Cuxe", "Miezraim", "Canaã"],
         correctAnswer: 3,
       },
       {
