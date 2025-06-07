@@ -33,6 +33,8 @@ export const metadata = {
   },
 };
 
+export const dynamic = "force-static";
+
 export default function page() {
   return (
     <div className="h-screen-dynamic bg-zinc-950 pt-12 px-4 text-white flex flex-col">

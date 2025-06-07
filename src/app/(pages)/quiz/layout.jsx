@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function QuizzesLayout({ children }) {
   return (
-    <div className="flex flex-col h-screen w-full ">
+    <div className="h-screen-dynamic flex flex-col">
       <QuizTopBar />
       {children}
     </div>

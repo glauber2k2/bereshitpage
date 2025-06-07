@@ -243,7 +243,7 @@ export default function QuizRunner({ params }) {
         )}
 
       {/* Visible Quiz UI */}
-      <div className="h-full flex flex-col bg-zinc-950 p-4 sm:p-8 text-white items-center ">
+      <div className="h-full pt-24 flex flex-col bg-zinc-950 p-4 sm:p-8 text-white items-center ">
         <div className="w-full max-w-2xl">
           {quiz && (
             <h1 className="text-xl sm:text-3xl font-semibold text-turquoise-400 text-center">

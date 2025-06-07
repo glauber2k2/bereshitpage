@@ -11,7 +11,7 @@ export default function QuizTopBar() {
   };
 
   return (
-    <div className="px-8 py-6 flex items-center gap-4 bg-zinc-950 text-white font-bold border-b-[1px] border-white/10">
+    <div className="px-8 py-6 fixed w-full flex items-center gap-4 bg-zinc-950 text-white font-bold border-b-[1px] border-white/10">
       <button onClick={handleLogoClick}>
         <img
           src="/assets/logo.png"
