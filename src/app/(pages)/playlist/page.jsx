@@ -12,28 +12,28 @@ import {
 import Link from "next/link";
 import React from "react";
 
-export const metadata = {
-  title: "Playlist",
-  description: "Ouça agora a playlist exclusiva que preparamos para você!",
-  openGraph: {
-    title: "Bereshit - Playlist",
-    description: "🎵 Dê o play na nossa seleção especial de músicas!",
-    url: "https://equipebereshit.com.br/playlist",
-    siteName: "Bereshit",
-    images: [
-      {
-        url: "https://equipebereshit.com.br/og-image-bereshit-igaracy.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Imagem da Playlist Bereshit",
-      },
-    ],
-    locale: "pt_BR",
-    type: "website",
-  },
-};
-
-export const dynamic = "force-static";
+export function generateMetadata() {
+  return {
+    title: "Playlist",
+    description: "Ouça agora a playlist exclusiva que preparamos para você!",
+    openGraph: {
+      title: "Bereshit - Playlist",
+      description: "🎵 Dê o play na nossa seleção especial de músicas!",
+      url: "https://equipebereshit.com.br/playlist",
+      siteName: "Bereshit",
+      images: [
+        {
+          url: "https://equipebereshit.com.br/og-image-bereshit-igaracy.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Imagem da Playlist Bereshit",
+        },
+      ],
+      locale: "pt_BR",
+      type: "website",
+    },
+  };
+}
 
 export default function page() {
   return (
