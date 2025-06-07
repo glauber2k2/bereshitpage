@@ -90,20 +90,22 @@ export default function page() {
         </Link>
       </div>
       <div className="mt-auto flex items-center justify-between text-xs">
-        <div className="flex flex-col items-center justify-center p-2 gap-1">
-          <LucideHouse size={22} />
-          Inicio
-        </div>
-        <div className="flex flex-col items-center justify-center p-2 gap-1">
+        <Link href={"/"}>
+          <div className="flex flex-col items-center justify-center p-2 gap-1 opacity-50">
+            <LucideHouse size={22} />
+            Inicio
+          </div>
+        </Link>
+        <div className="flex flex-col items-center justify-center p-2 gap-1 opacity-50">
           <Search size={22} />
           Buscar
         </div>
         <div className="flex flex-col items-center justify-center p-2 gap-1">
           <LibraryBig size={22} />
-          Inicio
+          Sua Biblioteca
         </div>
 
-        <div className="flex flex-col items-center justify-center p-2 gap-1">
+        <div className="flex flex-col items-center justify-center p-2 gap-1 opacity-50">
           <Plus size={22} />
           Criar
         </div>
