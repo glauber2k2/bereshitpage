@@ -14,12 +14,10 @@ import React from "react";
 
 export const metadata = {
   title: "Playlist",
-
-  description: "Ouça a playlist exclusiva criada pela Bereshit.",
-
+  description: "Ouça agora a playlist exclusiva que preparamos para você!",
   openGraph: {
-    title: "Bereshit Playlist",
-    description: "Clique aqui para ouvir a playlist que eu criei no Bereshit!",
+    title: "Bereshit - Playlist",
+    description: "🎵 Dê o play na nossa seleção especial de músicas!",
     url: "https://equipebereshit.com.br/playlist",
     siteName: "Bereshit",
     images: [
