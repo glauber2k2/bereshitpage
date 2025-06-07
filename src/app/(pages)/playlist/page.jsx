@@ -14,8 +14,24 @@ import React from "react";
 
 export const metadata = {
   title: "Playlist",
+
+  description: "Ouça a playlist exclusiva criada pela Bereshit.",
+
   openGraph: {
     title: "Bereshit Playlist",
+    description: "Clique aqui para ouvir a playlist que eu criei no Bereshit!",
+    url: "https://equipebereshit.com.br/playlist",
+    siteName: "Bereshit",
+    images: [
+      {
+        url: "https://equipebereshit.com.br/og-image-bereshit-igaracy.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Imagem da Playlist Bereshit",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
   },
 };
 
