@@ -12,6 +12,10 @@ import {
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: "Playlist",
+};
+
 export default function page() {
   return (
     <div className="h-screen bg-zinc-950 pt-12 px-4 text-white flex flex-col">
