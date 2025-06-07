@@ -39,12 +39,13 @@ export default function page() {
   return (
     <div className="h-screen-dynamic bg-zinc-950 pt-12 px-4 text-white flex flex-col">
       <div className="flex items-center gap-4 font-semibold text-2xl">
-        <img
-          src="/assets/logoazul.png"
-          alt="logoazul"
-          className="p-2 w-8 h-8 rounded-full bg-white
-          "
-        />
+        <div className="flex bg-white rounded-full">
+          <img
+            src="/assets/logoazul.png"
+            alt="logoazul"
+            className="w-4 h-4 m-2"
+          />
+        </div>
         <h1>Sua Biblioteca</h1>
 
         <Search size={22} className="ml-auto" />
