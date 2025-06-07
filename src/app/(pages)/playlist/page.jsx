@@ -35,7 +35,7 @@ export const metadata = {
 
 export default function page() {
   return (
-    <div className="h-screen bg-zinc-950 pt-12 px-4 text-white flex flex-col">
+    <div className="h-screen-dynamic bg-zinc-950 pt-12 px-4 text-white flex flex-col">
       <div className="flex items-center gap-4 font-semibold text-2xl">
         <img
           src="/assets/logoazul.png"
