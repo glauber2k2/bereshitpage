@@ -80,6 +80,12 @@ export default function Presentation() {
             <a className="hover:text-turquoise-400 transition-all" href="/quiz">
               Nosso quiz
             </a>
+            <a
+              className="hover:text-turquoise-400 transition-all"
+              href="/playlist"
+            >
+              Nossa playlist
+            </a>
           </nav>
         ) : (
           <button onClick={toggleMenu}>
@@ -152,6 +158,12 @@ export default function Presentation() {
                   href="/quiz"
                 >
                   Nosso Quiz
+                </a>
+                <a
+                  className="hover:text-turquoise-400 transition-all text-left"
+                  href="/playlist"
+                >
+                  Nossa Playlist
                 </a>
               </nav>
 
