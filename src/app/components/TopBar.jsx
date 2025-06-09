@@ -41,7 +41,7 @@ export default function Presentation() {
 
   return (
     <>
-      <div className="fixed flex p-6 bg-black/90 w-full text-white z-50 backdrop-blur-sm items-center">
+      <div className="fixed flex p-6 bg-black/10 w-full text-white z-50 backdrop-blur-sm items-center">
         <div className="sm:mr-auto mr-4 flex items-center gap-2 text-turquoise-400 font-bold animate-glitchEvery30s">
           <img
             src="/assets/logoazul.png"
@@ -61,7 +61,7 @@ export default function Presentation() {
           target="_blank"
         >
           <Instagram className="w-5 h-5 sm:w-6 sm:h-6" />
-          <p className="text-xs sm:text-base">Instagram</p>
+          <p className="text-xs sm:text-base font-medium">Instagram</p>
         </Link>
 
         {isDesktop ? (
