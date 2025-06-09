@@ -96,7 +96,7 @@ export default function page() {
           </div>
         </Link>
 
-        <Link href={"/playlist"}>
+        <Link href={"https://music.amazon.com.br/user-playlists/9dbf0749efc44cbb9d03a1ed44c85c0db1r0?ref=dm_sh_2eiZiYK1OlRdmUlW0v3Q74295&referrer=dm_sh_whatsapp"}>
           <div className="flex items-center gap-4">
             <img
               src={"/assets/logo.png"}
