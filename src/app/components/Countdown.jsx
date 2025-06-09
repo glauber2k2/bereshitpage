@@ -54,7 +54,7 @@ export default function Countdown() {
 
   if (timeLeft.status === "today") {
     return (
-      <p className="text-center text-lg sm:text-xl font-bold text-turquoise-400">
+      <p className="text-center text-xs sm:text-base font-semibold text-white">
         É hoje!
       </p>
     );
@@ -62,14 +62,14 @@ export default function Countdown() {
 
   if (timeLeft.status === "past") {
     return (
-      <p className="text-center text-lg sm:text-xl font-bold text-turquoise-400">
+      <p className="text-center text-xs sm:text-base font-semibold text-white">
         Memorial Bereshit
       </p>
     );
   }
 
   return (
-    <p className="text-center text-sm sm:text-base font-semibold text-white">
+    <p className="text-center text-xs sm:text-base font-semibold text-white">
       {timeLeft.days}d {formatNumber(timeLeft.hours)}h{" "}
       {formatNumber(timeLeft.minutes)}m {formatNumber(timeLeft.seconds)}s
     </p>

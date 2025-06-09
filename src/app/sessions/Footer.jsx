@@ -18,14 +18,14 @@ export default function Footer() {
       </a>
       <a className="text-white/70 flex items-center gap-2 mt-2" href="/quiz">
         <Dices size={16} />
-        Quiz Bereshit
+        BereQuiz
       </a>
       <a
         className="text-white/70 flex items-center gap-2 mt-2"
         href="/playlist"
       >
         <MusicIcon size={16} />
-        Playlist Bereshit
+        BerePlaylist
       </a>
 
       <div className="mt-10 border-t text-white/70 pt-8 border-white/70">

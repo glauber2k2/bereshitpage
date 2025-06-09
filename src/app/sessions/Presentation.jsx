@@ -40,16 +40,15 @@ export default function Presentation() {
           animate={{ x: 0 }}
           transition={{ delay: 0.5 }}
         >
-          O que é <span className="text-turquoise-400 ">Bereshit</span> ?
+          A nossa <span className="text-turquoise-400 ">misssão</span>!
         </motion.p>
         <motion.article
-          className="text-lg text-pretty mb-4 sm:text-xl"
+          className=" text-pretty mb-4 sm:text-xl"
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
           transition={{ delay: 0.6 }}
         >
-          Palavra hebraica que significa &quot;no princípio&quot; ou &quot;no
-          começo&quot;.
+          Levar ajuda e a palavra de Deus para a cidade de Igaracy, na Paraiba.
         </motion.article>
 
         <motion.div

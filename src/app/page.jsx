@@ -11,9 +11,9 @@ export default function Home() {
     <main className="bg-black flex flex-col w-full overflow-x-hidden">
       <TopBar />
       <Presentation />
-      <Leader />
-      <Motto />
       <Donate />
+      <Motto />
+      <Leader />
       <TeamTheme />
       <Footer />
     </main>

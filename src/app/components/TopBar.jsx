@@ -1,10 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { Instagram, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Countdown from "./Countdown";
+import Link from "next/link";
 
 export default function Presentation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,16 +41,28 @@ export default function Presentation() {
 
   return (
     <>
-      <div className="fixed flex p-6 bg-black/10 w-full text-white z-50 backdrop-blur-sm items-center">
-        <img
-          src="/assets/bereshitpalavra.png"
-          alt="Logo"
-          className="w-20 object-scale-down animate-glitchEvery30s mr-auto"
-        />
+      <div className="fixed flex p-6 bg-black/90 w-full text-white z-50 backdrop-blur-sm items-center">
+        <div className="sm:mr-auto mr-4 flex items-center gap-2 text-turquoise-400 font-bold animate-glitchEvery30s">
+          <img
+            src="/assets/logoazul.png"
+            alt="Logo"
+            className="w-6 object-scale-down"
+          />
+          <p className="hidden sm:block">Bereshit</p>
+        </div>
 
-        <div className="mr-4">
+        <div className="mr-auto sm:mr-8">
           <Countdown />
         </div>
+
+        <Link
+          href={"https://instagram.com/bereshit_equipe"}
+          className="mr-4 gap-2 flex items-center"
+          target="_blank"
+        >
+          <Instagram className="w-5 h-5 sm:w-6 sm:h-6" />
+          <p className="text-xs sm:text-base">Instagram</p>
+        </Link>
 
         {isDesktop ? (
           <nav className="flex gap-6">

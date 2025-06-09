@@ -20,7 +20,7 @@ export default function Motto() {
       <div className="absolute inset-0 bg-black/80" />
 
       {/* Conteúdo */}
-      <div className="relative z-10 pb-8 flex flex-col">
+      <div className="relative z-10 pb-8 flex flex-col pt-10">
         {/* Título */}
         <motion.h1
           ref={ref1}
